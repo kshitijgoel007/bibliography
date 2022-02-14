@@ -1,0 +1,816 @@
+
+@article{bauersfeld_range_2022,
+  title = {Range, {{Endurance}}, and {{Optimal Speed Estimates}} for {{Multicopters}}},
+  author = {Bauersfeld, Leonard and Scaramuzza, Davide},
+  year = {2022},
+  month = jan,
+  journal = {arXiv:2109.04741 [cs]},
+  eprint = {2109.04741},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  abstract = {Multicopters are among the most versatile mobile robots. Their applications range from inspection and mapping tasks to providing vital reconnaissance in disaster zones and to package delivery. The range, endurance, and speed a multirotor vehicle can achieve while performing its task is a decisive factor not only for vehicle design and mission planning, but also for policy makers deciding on the rules and regulations for aerial robots. To the best of the authors' knowledge, this work proposes the first approach to estimate the range, endurance, and optimal flight speed for a wide variety of multicopters. This advance is made possible by combining a state-of-the-art first-principles aerodynamic multicopter model based on blade-element-momentum theory with an electric-motor model and a graybox battery model. This model predicts the cell voltage with only 1.3\% relative error (43.1 mV), even if the battery is subjected to non-constant discharge rates. Our approach is validated with real-world experiments on a test bench as well as with flights at speeds up to 65 km/h in one of the world's largest motion-capture systems. We also present an accurate pen-and-paper algorithm to estimate the range, endurance and optimal speed of multicopters to help future researchers build drones with maximal range and endurance, ensuring that future multirotor vehicles are even more versatile.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Robotics},
+  file = {/Users/kshitijgoel/Zotero/storage/LSA3DI38/Bauersfeld and Scaramuzza - 2022 - Range, Endurance, and Optimal Speed Estimates for .pdf;/Users/kshitijgoel/Zotero/storage/VGDU5JS3/2109.html}
+}
+
+@article{bialkowski_efficient_2016,
+  title = {Efficient Collision Checking in Sampling-Based Motion Planning via Safety Certificates},
+  author = {Bialkowski, Joshua and Otte, Michael and Karaman, Sertac and Frazzoli, Emilio},
+  year = {2016},
+  month = jun,
+  journal = {The International Journal of Robotics Research},
+  volume = {35},
+  number = {7},
+  pages = {767--796},
+  publisher = {{SAGE Publications Ltd STM}},
+  issn = {0278-3649},
+  doi = {10.1177/0278364915625345},
+  abstract = {Collision checking is considered to be the most expensive computational bottleneck in sampling-based motion planning algorithms. We introduce a simple procedure that theoretically eliminates this bottleneck and significantly reduces collision-checking time in practice in several test scenarios. Whenever a point is collision checked in the normal (expensive) way, we store a lower bound on that point?s distance to the nearest obstacle. The latter is called a ?safety certificate? and defines a region of the search space that is guaranteed to be collision-free. New points may forgo collision checking whenever they are located within a safety certificate of an old point. Testing the latter condition is accomplished during the nearest-neighbor search that is already part of most sampling-based motion planning algorithms. As more and more points are sampled, safety certificates asymptotically cover the search space and the amortized complexity of (normal, expensive) collision checking becomes negligible with respect to the overall runtime of sampling-based motion planning algorithms. Indeed, the expected fraction of points requiring a normal collision check approaches zero, in the limit, as the total number of points approaches infinity. A number of extensions to the basic idea are presented. Experiments with a number of proof-of-concept implementations demonstrate that using safety certificates can improve the performance of sampling-based motion planning algorithms in practice.},
+  file = {/Users/kshitijgoel/Zotero/storage/I26VEZWJ/Bialkowski et al. - 2016 - Efficient collision checking in sampling-based mot.pdf}
+}
+
+@inproceedings{burri_real-time_2015,
+  title = {Real-Time Visual-Inertial Mapping, Re-Localization and Planning Onboard {{MAVs}} in Unknown Environments},
+  booktitle = {2015 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
+  author = {Burri, Michael and Oleynikova, Helen and Achtelik, Markus W. and Siegwart, Roland},
+  year = {2015},
+  month = sep,
+  pages = {1872--1878},
+  doi = {10.1109/IROS.2015.7353622},
+  abstract = {In this work, we present an MAV system that is able to relocalize itself, create consistent maps and plan paths in full 3D in previously unknown environments. This is solely based on vision and IMU measurements with all components running onboard and in real-time. We use visual-inertial odometry to keep the MAV airborne safely locally, as well as for exploration of the environment based on high-level input by an operator. A globally consistent map is constructed in the background, which is then used to correct for drift of the visual odometry algorithm. This map serves as an input to our proposed global planner, which finds dynamic 3D paths to any previously visited place in the map, without the use of teach and repeat algorithms. In contrast to previous work, all components are executed onboard and in real-time without any prior knowledge of the environment.},
+  keywords = {Buildings,Cameras,Helicopters,Inspection,Planning,Real-time systems,Visualization},
+  file = {/Users/kshitijgoel/Zotero/storage/SBKYJLQI/Burri et al. - 2015 - Real-time visual-inertial mapping, re-localization.pdf;/Users/kshitijgoel/Zotero/storage/R8TIT87X/7353622.html}
+}
+
+@inproceedings{bylow_real-time_2013,
+  title = {Real-{{Time Camera Tracking}} and {{3D Reconstruction Using Signed Distance Functions}}},
+  booktitle = {Robotics: {{Science}} and {{Systems IX}}},
+  author = {Bylow, Erik and Sturm, J{\"u}rgen and Kerl, Christian and Kahl, Fredrik and Cremers, Daniel},
+  year = {2013},
+  month = jun,
+  publisher = {{Robotics: Science and Systems Foundation}},
+  doi = {10.15607/RSS.2013.IX.035},
+  isbn = {978-981-07-3937-9},
+  file = {/Users/kshitijgoel/Zotero/storage/4RZUHRP6/Bylow et al. - 2013 - Real-Time Camera Tracking and 3D Reconstruction Us.pdf}
+}
+
+@article{corah_communication-efficient_2019,
+  title = {Communication-{{Efficient Planning}} and {{Mapping}} for {{Multi-Robot Exploration}} in {{Large Environments}}},
+  author = {Corah, Micah and O'Meadhra, Cormac and Goel, Kshitij and Michael, Nathan},
+  year = {2019},
+  month = apr,
+  journal = {IEEE Robotics and Automation Letters},
+  volume = {4},
+  number = {2},
+  pages = {1715--1721},
+  issn = {2377-3766},
+  doi = {10.1109/LRA.2019.2897368},
+  copyright = {All rights reserved},
+  keywords = {Aerial systems: perception and autonomy,Gaussian mixture model,Libraries,mapping,networked Robots,Planning,Robot kinematics,Robot sensing systems,robotic exploration}
+}
+
+@inproceedings{curless_volumetric_1996,
+  title = {A Volumetric Method for Building Complex Models from Range Images},
+  booktitle = {Proceedings of the 23rd Annual Conference on {{Computer}} Graphics and Interactive Techniques},
+  author = {Curless, Brian and Levoy, Marc},
+  year = {1996},
+  month = aug,
+  series = {{{SIGGRAPH}} '96},
+  pages = {303--312},
+  publisher = {{Association for Computing Machinery}},
+  address = {{New York, NY, USA}},
+  doi = {10.1145/237170.237269},
+  isbn = {978-0-89791-746-9},
+  keywords = {isosurface extraction,range image integration,surface fitting,three-dimensional shape recovery},
+  file = {/Users/kshitijgoel/Zotero/storage/4HCW3TE8/Curless and Levoy - 1996 - A volumetric method for building complex models fr.pdf}
+}
+
+@article{delmerico_current_2019,
+  title = {The Current State and Future Outlook of Rescue Robotics},
+  author = {Delmerico, Jeffrey and Mintchev, Stefano and Giusti, Alessandro and Gromov, Boris and Melo, Kamilo and Horvat, Tomislav and Cadena, Cesar and Hutter, Marco and Ijspeert, Auke and Floreano, Dario and Gambardella, Luca M. and Siegwart, Roland and Scaramuzza, Davide},
+  year = {2019},
+  journal = {Journal of Field Robotics},
+  volume = {36},
+  number = {7},
+  pages = {1171--1191},
+  issn = {1556-4967},
+  doi = {10.1002/rob.21887},
+  abstract = {Robotic technologies, whether they are remotely operated vehicles, autonomous agents, assistive devices, or novel control interfaces, offer many promising capabilities for deployment in real-world environments. Postdisaster scenarios are a particularly relevant target for applying such technologies, due to the challenging conditions faced by rescue workers and the possibility to increase their efficacy while decreasing the risks they face. However, field-deployable technologies for rescue work have requirements for robustness, speed, versatility, and ease of use that may not be matched by the state of the art in robotics research. This paper aims to survey the current state of the art in ground and aerial robots, marine and amphibious systems, and human\textendash robot control interfaces and assess the readiness of these technologies with respect to the needs of first responders and disaster recovery efforts. We have gathered expert opinions from emergency response stakeholders and researchers who conduct field deployments with them to understand these needs, and we present this assessment as a way to guide future research toward technologies that will make an impact in real-world disaster response and recovery.},
+  langid = {english},
+  keywords = {emergency response,extreme environments,search and rescue robotics},
+  annotation = {\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.21887},
+  file = {/Users/kshitijgoel/Zotero/storage/JIC62DS2/Delmerico et al. - 2019 - The current state and future outlook of rescue rob.pdf;/Users/kshitijgoel/Zotero/storage/XWTH9D53/rob.html}
+}
+
+@inproceedings{dhawale_efficient_2020,
+  title = {Efficient {{Parametric Multi-Fidelity Surface Mapping}}},
+  booktitle = {Robotics: {{Science}} and {{Systems XVI}}},
+  author = {Dhawale, Aditya and Michael, Nathan},
+  year = {2020},
+  month = jul,
+  publisher = {{Robotics: Science and Systems Foundation}},
+  doi = {10.15607/RSS.2020.XVI.073},
+  isbn = {978-0-9923747-6-1}
+}
+
+@inproceedings{doherty_probabilistic_2016,
+  title = {Probabilistic Map Fusion for Fast, Incremental Occupancy Mapping with {{3D Hilbert}} Maps},
+  booktitle = {2016 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Doherty, Kevin and Wang, Jinkun and Englot, Brendan},
+  year = {2016},
+  month = may,
+  pages = {1011--1018},
+  doi = {10.1109/ICRA.2016.7487233},
+  keywords = {Gaussian processes,Kernel,Logistics,Robot sensing systems,Training}
+}
+
+@inproceedings{eckart_accelerated_2016,
+  title = {Accelerated {{Generative Models}} for {{3D Point Cloud Data}}},
+  booktitle = {2016 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  author = {Eckart, Ben and Kim, Kihwan and Troccoli, Alejandro and Kelly, Alonzo and Kautz, Jan},
+  year = {2016},
+  month = jun,
+  pages = {5497--5505},
+  publisher = {{IEEE}},
+  address = {{Las Vegas, NV, USA}},
+  doi = {10.1109/CVPR.2016.593},
+  isbn = {978-1-4673-8851-1}
+}
+
+@article{elfes_using_1989,
+  title = {Using Occupancy Grids for Mobile Robot Perception and Navigation},
+  author = {Elfes, A.},
+  year = {1989},
+  month = jun,
+  journal = {Computer},
+  volume = {22},
+  number = {6},
+  pages = {46--57},
+  issn = {1558-0814},
+  doi = {10.1109/2.30720},
+  keywords = {Decision making,Mobile robots,Navigation,Path planning,Remotely operated vehicles,Robot kinematics,Robot sensing systems,Robustness,Service robots,State estimation}
+}
+
+@inproceedings{evangelidis_generative_2014,
+  title = {A {{Generative Model}} for the {{Joint Registration}} of {{Multiple Point Sets}}},
+  booktitle = {Computer {{Vision}} \textendash{} {{ECCV}} 2014},
+  author = {Evangelidis, Georgios D. and {Kounades-Bastian}, Dionyssos and Horaud, Radu and Psarakis, Emmanouil Z.},
+  editor = {Fleet, David and Pajdla, Tomas and Schiele, Bernt and Tuytelaars, Tinne},
+  year = {2014},
+  series = {Lecture {{Notes}} in {{Computer Science}}},
+  pages = {109--122},
+  publisher = {{Springer International Publishing}},
+  address = {{Cham}},
+  doi = {10.1007/978-3-319-10584-0_8},
+  abstract = {This paper describes a probabilistic generative model and its associated algorithm to jointly register multiple point sets. The vast majority of state-of-the-art registration techniques select one of the sets as the ``model'' and perform pairwise alignments between the other sets and this set. The main drawback of this mode of operation is that there is no guarantee that the model-set is free of noise and outliers, which contaminates the estimation of the registration parameters. Unlike previous work, the proposed method treats all the point sets on an equal footing: they are realizations of a Gaussian mixture (GMM) and the registration is cast into a clustering problem. We formally derive an EM algorithm that estimates both the GMM parameters and the rotations and translations that map each individual set onto the ``central'' model. The mixture means play the role of the registered set of points while the variances provide rich information about the quality of the registration. We thoroughly validate the proposed method with challenging datasets, we compare it with several state-of-the-art methods, and we show its potential for fusing real depth data.},
+  isbn = {978-3-319-10584-0},
+  langid = {english},
+  keywords = {expectation maximization,Gaussian mixture model,joint registration,point set registration},
+  file = {/Users/kshitijgoel/Zotero/storage/4JA9REL6/Evangelidis et al. - 2014 - A Generative Model for the Joint Registration of M.pdf}
+}
+
+@article{falanga_how_2019,
+  title = {How {{Fast Is Too Fast}}? {{The Role}} of {{Perception Latency}} in {{High-Speed Sense}} and {{Avoid}}},
+  shorttitle = {How {{Fast Is Too Fast}}?},
+  author = {Falanga, Davide and Kim, Suseong and Scaramuzza, Davide},
+  year = {2019},
+  month = apr,
+  journal = {IEEE Robotics and Automation Letters},
+  volume = {4},
+  number = {2},
+  pages = {1884--1891},
+  issn = {2377-3766},
+  doi = {10.1109/LRA.2019.2898117},
+  abstract = {In this letter, we study the effects that perception latency has on the maximum speed a robot can reach to safely navigate through an unknown cluttered environment. We provide a general analysis that can serve as a baseline for future quantitative reasoning for design tradeoffs in autonomous robot navigation. We consider the case where the robot is modeled as a linear secondorder system with bounded input and navigates through static obstacles. Also, we focus on a scenario where the robot wants to reach a target destination in as little time as possible, and therefore cannot change its longitudinal velocity to avoid obstacles. We show how the maximum latency that the robot can tolerate to guarantee safety is related to the desired speed, the range of its sensing pipeline, and the actuation limitations of the platform (i.e., the maximum acceleration it can produce). As a particular case study, we compare monocular and stereo frame-based cameras against novel, low-latency sensors, such as event cameras, in the case of quadrotor flight. To validate our analysis, we conduct experiments on a quadrotor platform equipped with an event camera to detect and avoid obstacles thrown towards the robot. To the best of our knowledge, this is the first theoretical work in which perception and actuation limitations are jointly considered to study the performance of a robotic platform in high-speed navigation.},
+  keywords = {aerial systems: perception and autonomy,Cameras,Collision avoidance,Navigation,Robot vision systems,visual-based navigation},
+  file = {/Users/kshitijgoel/Zotero/storage/MBXPFPBV/Falanga et al. - 2019 - How Fast Is Too Fast The Role of Perception Laten.pdf;/Users/kshitijgoel/Zotero/storage/T8T9DB6H/8636976.html}
+}
+
+@inproceedings{goel_fast_2021,
+  title = {Fast {{Exploration Using Multirotors}}: {{Analysis}}, {{Planning}}, and {{Experimentation}}},
+  shorttitle = {Fast {{Exploration Using Multirotors}}},
+  booktitle = {Field and {{Service Robotics}}},
+  author = {Goel, Kshitij and Corah, Micah and Boirum, Curtis and Michael, Nathan},
+  editor = {Ishigami, Genya and Yoshida, Kazuya},
+  year = {2021},
+  series = {Springer {{Proceedings}} in {{Advanced Robotics}}},
+  pages = {291--305},
+  publisher = {{Springer}},
+  address = {{Singapore}},
+  doi = {10.1007/978-981-15-9460-1_21},
+  copyright = {All rights reserved},
+  isbn = {9789811594601},
+  langid = {english}
+}
+
+@inproceedings{goel_rapid_2021,
+  title = {Rapid and {{High-Fidelity Subsurface Exploration}} with {{Multiple Aerial Robots}}},
+  booktitle = {Experimental {{Robotics}}},
+  author = {Goel, Kshitij and Tabib, Wennie and Michael, Nathan},
+  editor = {Siciliano, Bruno and Laschi, Cecilia and Khatib, Oussama},
+  year = {2021},
+  series = {Springer {{Proceedings}} in {{Advanced Robotics}}},
+  pages = {436--448},
+  publisher = {{Springer International Publishing}},
+  address = {{Cham}},
+  doi = {10.1007/978-3-030-71151-1_39},
+  copyright = {All rights reserved},
+  isbn = {978-3-030-71151-1},
+  langid = {english}
+}
+
+@inproceedings{guizilini_large-scale_2016,
+  title = {Large-Scale {{3D}} Scene Reconstruction with {{Hilbert Maps}}},
+  booktitle = {2016 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
+  author = {Guizilini, Vitor and Ramos, Fabio},
+  year = {2016},
+  month = oct,
+  pages = {3247--3254},
+  issn = {2153-0866},
+  doi = {10.1109/IROS.2016.7759501},
+  abstract = {3D scene reconstruction involves the volumetric modeling of space, and it is a fundamental step in a wide variety of robotic applications, including grasping, obstacle avoidance, path planning, mapping and many others. Nowadays, sensors are able to quickly collect vast amounts of data, and the challenge has become one of storing and processing all this information in a timely manner, especially if real-time performance is required. Recently, a novel technique for the stochastic learning of discriminative models through continuous occupancy maps was proposed: Hilbert Maps [18], that is able to represent the input space at an arbitrary resolution while capturing statistical relationships between measurements. The original framework was proposed for 2D environments, and here we extend it to higher-dimensional spaces, addressing some of the challenges brought by the curse of dimensionality. Namely, we propose a method for the automatic selection of feature coordinate locations, and introduce the concept of localized automatic relevance determination (LARD) to the Hilbert Maps framework, in which different dimensions in the projected Hilbert space operate within independent length-scale values. The proposed technique was tested against other state-of-the-art 3D scene reconstruction tools in three different datasets: a simulated indoors environment, RIEGL laser scans and dense LSD-SLAM pointclouds. The results testify to the proposed framework's ability to model complex structures and correctly interpolate over unobserved areas of the input space while achieving real-time training and querying performances.},
+  keywords = {Adaptation models,Clustering algorithms,Hilbert space,Stochastic processes,Three-dimensional displays,Training,Two dimensional displays}
+}
+
+@inproceedings{heiden_planning_2017,
+  title = {Planning High-Speed Safe Trajectories in Confidence-Rich Maps},
+  booktitle = {2017 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
+  author = {Heiden, Eric and Hausman, Karol and Sukhatme, Gaurav S. and {Agha-mohammadi}, Ali-akbar},
+  year = {2017},
+  month = sep,
+  pages = {2880--2886},
+  issn = {2153-0866},
+  doi = {10.1109/IROS.2017.8206120},
+  abstract = {Planning safe, high-speed trajectories in unknown environments remains a major roadblock on the way toward achieving fast autonomous flight. Current state-of-the-art planning approaches use sampling-based methods or trajectory optimization to obtain fast trajectories, whose safety is evaluated by taking into account the current state estimate of the environment. In unknown environments, however, this leads to numerous stops caused by the need for re-planning the trajectory due to unexpected obstacles. In this paper, we propose to use an active perception paradigm for planning. We predict the future uncertainty of the map and optimize trajectories to minimize re-planning risk. This leads to faster and safer trajectories. We evaluate the proposed planning approach in a series of simulation experiments, which show that we are able to achieve safer trajectories with a smaller number of re-planning stops and faster speeds.},
+  keywords = {Optimization,Planning,Probabilistic logic,Robots,Sensors,Trajectory,Uncertainty},
+  file = {/Users/kshitijgoel/Zotero/storage/GSK9DAQE/Heiden et al. - 2017 - Planning high-speed safe trajectories in confidenc.pdf;/Users/kshitijgoel/Zotero/storage/CMZ5R96T/8206120.html}
+}
+
+@book{hempel_call_2001,
+  title = {On {{Call}}: {{A Complete Reference}} for {{Cave Rescue}}},
+  author = {Hempel, John C. and {Fregeau-Conover}, Annette},
+  year = {2001},
+  publisher = {{National Speleological Society}},
+  isbn = {978-1-879961-16-6},
+  langid = {english}
+}
+
+@article{hornung_octomap_2013,
+  title = {{{OctoMap}}: An Efficient Probabilistic {{3D}} Mapping Framework Based on Octrees},
+  shorttitle = {{{OctoMap}}},
+  author = {Hornung, Armin and Wurm, Kai M. and Bennewitz, Maren and Stachniss, Cyrill and Burgard, Wolfram},
+  year = {2013},
+  month = apr,
+  journal = {Autonomous Robots},
+  volume = {34},
+  number = {3},
+  pages = {189--206},
+  issn = {1573-7527},
+  doi = {10.1007/s10514-012-9321-0},
+  langid = {english}
+}
+
+@inproceedings{huang_di-fusion_2021,
+  title = {{{DI-Fusion}}: {{Online Implicit 3D Reconstruction}} with {{Deep Priors}}},
+  shorttitle = {{{DI-Fusion}}},
+  booktitle = {2021 {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  author = {Huang, Jiahui and Huang, Shi-Sheng and Song, Haoxuan and Hu, Shi-Min},
+  year = {2021},
+  month = jun,
+  pages = {8928--8937},
+  issn = {2575-7075},
+  doi = {10.1109/CVPR46437.2021.00882},
+  abstract = {Previous online 3D dense reconstruction methods struggle to achieve the balance between memory storage and surface quality, largely due to the usage of stagnant underlying geometry representation, such as TSDF (truncated signed distance functions) or surfels, without any knowledge of the scene priors. In this paper, we present DI-Fusion (Deep Implicit Fusion), based on a novel 3D representation, i.e. Probabilistic Local Implicit Voxels (PLIVoxs), for online 3D reconstruction with a commodity RGB-D camera. Our PLIVox encodes scene priors considering both the local geometry and uncertainty parameterized by a deep neural network. With such deep priors, we are able to perform online implicit 3D reconstruction achieving state-of-the-art camera trajectory estimation accuracy and mapping quality, while achieving better storage efficiency compared with previous online 3D reconstruction approaches. Our implementation is available at https://www.github.com/huangjh-pub/di-fusion.},
+  keywords = {Cameras,Geometry,Pose estimation,Reconstruction algorithms,Surface reconstruction,Three-dimensional displays,Uncertainty},
+  file = {/Users/kshitijgoel/Zotero/storage/S9CDJ66E/Huang et al. - 2021 - DI-Fusion Online Implicit 3D Reconstruction with .pdf}
+}
+
+@inproceedings{jadidi_exploration_2014,
+  title = {Exploration on Continuous {{Gaussian}} Process Frontier Maps},
+  booktitle = {2014 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Jadidi, Maani Ghaffari and Mir{\'o}, Jaime Valls and Valencia, Rafael and {Andrade-Cetto}, Juan},
+  year = {2014},
+  month = may,
+  pages = {6077--6082},
+  issn = {1050-4729},
+  doi = {10.1109/ICRA.2014.6907754},
+  abstract = {An information-driven autonomous robotic exploration method on a continuous representation of unknown environments is proposed in this paper. The approach conveniently handles sparse sensor measurements to build a continuous model of the environment that exploits structural dependencies without the need to resort to a fixed resolution grid map. A gradient field of occupancy probability distribution is regressed from sensor data as a Gaussian process providing frontier boundaries for further exploration. The resulting continuous global frontier surface completely describes unexplored regions and, inherently, provides an automatic stop criterion for a desired sensitivity. The performance of the proposed approach is evaluated through simulation results in the well-known Freiburg and Cave maps.},
+  keywords = {Entropy,Gaussian processes,Measurement by laser beam,Simultaneous localization and mapping,Training},
+  file = {/Users/kshitijgoel/Zotero/storage/677MPF4P/Jadidi et al. - 2014 - Exploration on continuous Gaussian process frontie.pdf}
+}
+
+@inproceedings{jiang_local_2020,
+  title = {Local {{Implicit Grid Representations}} for {{3D Scenes}}},
+  booktitle = {2020 {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  author = {Jiang, Chiyu and Sud, Avneesh and Makadia, Ameesh and Huang, Jingwei and Nie{\ss}ner, Matthias and Funkhouser, Thomas},
+  year = {2020},
+  month = jun,
+  pages = {6000--6009},
+  issn = {2575-7075},
+  doi = {10.1109/CVPR42600.2020.00604},
+  abstract = {Shape priors learned from data are commonly used to reconstruct 3D objects from partial or noisy data. Yet no such shape priors are available for indoor scenes, since typical 3D autoencoders cannot handle their scale, complexity, or diversity. In this paper, we introduce Local Implicit Grid Representations, a new 3D shape representation designed for scalability and generality. The motivating idea is that most 3D surfaces share geometric details at some scale - i.e., at a scale smaller than an entire object and larger than a small patch. We train an autoencoder to learn an embedding of local crops of 3D shapes at that size. Then, we use the decoder as a component in a shape optimization that solves for a set of latent codes on a regular grid of overlapping crops such that an interpolation of the decoded local shapes matches a partial or noisy observation. We demonstrate the value of this proposed approach for 3D surface reconstruction from sparse point observations, showing significantly better results than alternative approaches.},
+  keywords = {Decoding,Geometry,Image reconstruction,Shape,Task analysis,Three-dimensional displays,Training},
+  file = {/Users/kshitijgoel/Zotero/storage/C4WVILS3/Jiang et al. - 2020 - Local Implicit Grid Representations for 3D Scenes.pdf}
+}
+
+@inproceedings{keller_real-time_2013,
+  title = {Real-{{Time 3D Reconstruction}} in {{Dynamic Scenes Using Point-Based Fusion}}},
+  booktitle = {2013 {{International Conference}} on {{3D Vision}} - {{3DV}} 2013},
+  author = {Keller, Maik and Lefloch, Damien and Lambers, Martin and Izadi, Shahram and Weyrich, Tim and Kolb, Andreas},
+  year = {2013},
+  month = jun,
+  pages = {1--8},
+  issn = {1550-6185},
+  doi = {10.1109/3DV.2013.9},
+  abstract = {Real-time or online 3D reconstruction has wide applicability and receives further interest due to availability of consumer depth cameras. Typical approaches use a moving sensor to accumulate depth measurements into a single model which is continuously refined. Designing such systems is an intricate balance between reconstruction quality, speed, spatial scale, and scene assumptions. Existing online methods either trade scale to achieve higher quality reconstructions of small objects/scenes. Or handle larger scenes by trading real-time performance and/or quality, or by limiting the bounds of the active reconstruction. Additionally, many systems assume a static scene, and cannot robustly handle scene motion or reconstructions that evolve to reflect scene changes. We address these limitations with a new system for real-time dense reconstruction with equivalent quality to existing online methods, but with support for additional spatial scale and robustness in dynamic scenes. Our system is designed around a simple and flat point-Based representation, which directly works with the input acquired from range/depth sensors, without the overhead of converting between representations. The use of points enables speed and memory efficiency, directly leveraging the standard graphics pipeline for all central operations, i.e., camera pose estimation, data association, outlier removal, fusion of depth maps into a single denoised model, and detection and update of dynamic objects. We conclude with qualitative and quantitative results that highlight robust tracking and high quality reconstructions of a diverse set of scenes at varying scales.},
+  keywords = {3D cameras and sensors,3D shape reconstruction,Cameras,Data models,Estimation,GPU,Iterative closest point algorithm,Kinect Fusion,Real-time,Robustness,Surface reconstruction,Three-dimensional displays}
+}
+
+@incollection{kim_gpmap_2015,
+  title = {{{GPmap}}: {{A Unified Framework}} for {{Robotic Mapping Based}} on {{Sparse Gaussian Processes}}},
+  shorttitle = {{{GPmap}}},
+  booktitle = {Field and {{Service Robotics}}: {{Results}} of the 9th {{International Conference}}},
+  author = {Kim, Soohwan and Kim, Jonghyuk},
+  editor = {Mejias, Luis and Corke, Peter and Roberts, Jonathan},
+  year = {2015},
+  series = {Springer {{Tracts}} in {{Advanced Robotics}}},
+  pages = {319--332},
+  publisher = {{Springer International Publishing}},
+  address = {{Cham}},
+  doi = {10.1007/978-3-319-07488-7_22},
+  abstract = {This paper proposes a unified framework called GPmap for reconstructing surface meshes and building continuous occupancy maps using sparse Gaussian processes. Previously, Gaussian processes have been separately applied for surface reconstruction and occupancy mapping with different function definitions. However, by adopting the signed distance function as the latent function and applying the probabilistic least square classification, we solve two different problems in a single framework. Thus, two different map representations can be obtained at a single cast, for instance, an object shape for grasping and an occupancy map for obstacle avoidance. Another contribution of this paper is reduction of computational complexity for scalability. The cubic computational complexity of Gaussian processes is a well-known issue limiting its applications for large-scale data. We address this by applying the sparse covariance function which makes distant data independent and thus divides both training and test data into grid blocks of manageable sizes. In contrast to previous work, the size of grid blocks is determined in a principled way by learning the characteristic length-scale of the sparse covariance function from the training data. We compare theoretical complexity with previous work and demonstrate our method with structured indoor and unstructured outdoor datasets.},
+  isbn = {978-3-319-07488-7},
+  langid = {english},
+  keywords = {Covariance Function,Gaussian Process,Grid Block,Point Cloud,Test Position}
+}
+
+@inproceedings{lee_online_2019,
+  title = {Online {{Continuous Mapping}} Using {{Gaussian Process Implicit Surfaces}}},
+  booktitle = {2019 {{International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Lee, Bhoram and Zhang, Clark and Huang, Zonghao and Lee, Daniel D.},
+  year = {2019},
+  month = may,
+  pages = {6884--6890},
+  doi = {10.1109/ICRA.2019.8794324},
+  keywords = {Noise measurement,Planning,Robot kinematics,Robot sensing systems,Surface treatment,Training}
+}
+
+@inproceedings{li_fast_2020,
+  title = {Fast and {{Safe Path-Following Control}} Using a {{State-Dependent Directional Metric}}},
+  booktitle = {2020 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Li, Zhichao and Arslan, {\"O}m{\"u}r and Atanasov, Nikolay},
+  year = {2020},
+  month = may,
+  pages = {6176--6182},
+  issn = {2577-087X},
+  doi = {10.1109/ICRA40945.2020.9197377},
+  abstract = {This paper considers the problem of fast and safe autonomous navigation in partially known environments. Our main contribution is a control policy design based on ellipsoidal trajectory bounds obtained from a quadratic state-dependent distance metric. The ellipsoidal bounds are used to embed directional preference in the control design, leading to system behavior that is adapted to local environment geometry, carefully considering medial obstacles while paying less attention to lateral ones. We use a virtual reference governor system to adaptively follow a desired navigation path, slowing down when system safety may be violated and speeding up otherwise. The resulting controller is able to navigate complex environments faster than common Euclidean-norm and Lyapunov-function-based designs, while retaining stability and collision avoidance guarantees.},
+  keywords = {Aerospace electronics,Collision avoidance,Measurement,Navigation,Robots,Safety,Trajectory},
+  file = {/Users/kshitijgoel/Zotero/storage/T7B7PWEI/Li et al. - 2020 - Fast and Safe Path-Following Control using a State.pdf;/Users/kshitijgoel/Zotero/storage/HHLJF8FM/9197377.html}
+}
+
+@article{liu_active_2021,
+  title = {Active and {{Interactive Mapping With Dynamic Gaussian Process Implicit Surfaces}} for {{Mobile Manipulators}}},
+  author = {Liu, Liyang and Fryc, Simon and Wu, Lan and Vu, Thanh Long and Paul, Gavin and {Vidal-Calleja}, Teresa},
+  year = {2021},
+  month = apr,
+  journal = {IEEE Robotics and Automation Letters},
+  volume = {6},
+  number = {2},
+  pages = {3679--3686},
+  issn = {2377-3766},
+  doi = {10.1109/LRA.2021.3061324},
+  abstract = {In this letter, we present an interactive probabilistic mapping framework for a mobile manipulator picking objects from a pile. The aim is to map the scene, actively decide where to go next and which object to pick, make changes to the scene by picking the chosen object, and then map these changes alongside. The proposed framework uses a novel dynamic Gaussian Process (GP) Implicit Surface method to incrementally build and update the scene map that reflects environment changes. Actively the framework computes the next-best-view, balancing the terms of object reachability for picking and map information gain (IG) for fidelity and coverage. To enforce a priority of visiting boundary segments over unknown regions, the IG formulation includes an uncertainty gradient-based frontier score by exploiting the GP kernel derivative. This leads to an efficient strategy that addresses the often conflicting requirement of unknown environment exploration and object picking exploitation given a limited execution horizon. We demonstrate the effectiveness of our framework with software simulation and real-life experiments.},
+  keywords = {Automatic building construction,exploration,gaussian process implicit surfaces,Manipulator dynamics,mapping,mobile manipulator,Probabilistic logic,Robots,Surface treatment,Three-dimensional displays,Training,Uncertainty},
+  file = {/Users/kshitijgoel/Zotero/storage/6UNHRQGV/Liu et al. - 2021 - Active and Interactive Mapping With Dynamic Gaussi.pdf}
+}
+
+@inproceedings{liu_high_2016,
+  title = {High Speed Navigation for Quadrotors with Limited Onboard Sensing},
+  booktitle = {2016 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Liu, Sikang and Watterson, Michael and Tang, Sarah and Kumar, Vijay},
+  year = {2016},
+  month = may,
+  pages = {1484--1491},
+  doi = {10.1109/ICRA.2016.7487284},
+  abstract = {We address the problem of high speed autonomous navigation of quadrotor micro aerial vehicles with limited onboard sensing and computation. In particular, we propose a dual range planning horizon method to safely and quickly navigate quadrotors to specified goal locations in previously unknown and unstructured environments. In each planning epoch, a short-range planner uses a local map to generate a new trajectory. At the same time, a safe stopping policy is found. This allows the robot to come to an emergency halt when necessary. Our algorithm guarantees collision avoidance and demonstrates important advances in real-time planning. First, our novel short range planning method allows us to generate and re-plan trajectories that are dynamically feasible, comply with state and input constraints, and avoid obstacles in real-time. Further, previous planning algorithms abstract away the obstacle detection problem by assuming the instantaneous availability of geometric information about the environment. In contrast, our method addresses the challenge of using the raw sensor data to form a map and navigate in real-time. Finally, in addition to simulation examples, we provide physical experiments that demonstrate the entire algorithmic pipeline from obstacle detection to trajectory execution.},
+  keywords = {Collision avoidance,Navigation,Planning,Real-time systems,Robot sensing systems,Trajectory},
+  file = {/Users/kshitijgoel/Zotero/storage/6HTQNI49/Liu et al. - 2016 - High speed navigation for quadrotors with limited .pdf;/Users/kshitijgoel/Zotero/storage/6K5WB74N/7487284.html}
+}
+
+@inproceedings{lopez_aggressive_2017,
+  title = {Aggressive 3-{{D}} Collision Avoidance for High-Speed Navigation},
+  booktitle = {2017 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Lopez, Brett T. and How, Jonathan P.},
+  year = {2017},
+  month = may,
+  pages = {5759--5765},
+  doi = {10.1109/ICRA.2017.7989677},
+  abstract = {Autonomous robot navigation through unknown, cluttered environments at high-speeds is still an open problem. Quadrotor platforms with this capability have only begun to emerge with the advancements in light-weight, small form factor sensing and computing. Many of the existing platforms, however, require excessive computation time to perform collision avoidance, which ultimately limits the vehicle's top speed. This work presents an efficient perception and planning approach that significantly reduces the computation time by using instantaneous perception data for collision avoidance. Minimum-time, state and input constrained motion primitives are generated by sampling terminal states until a collision-free path is found. The worst case performance of the Triple Integrator Planner (TIP) is nearly an order of magnitude faster than the state-of-the-art. Experimental results demonstrate the algorithm's ability to plan and execute aggressive collision avoidance maneuvers in highly cluttered environments.},
+  keywords = {Collision avoidance,Computational modeling,Navigation,Planning,Robot sensing systems,Three-dimensional displays,Trajectory},
+  file = {/Users/kshitijgoel/Zotero/storage/HS2JWSN5/Lopez and How - 2017 - Aggressive 3-D collision avoidance for high-speed .pdf;/Users/kshitijgoel/Zotero/storage/9YG7LSUE/7989677.html}
+}
+
+@article{lorensen_marching_1987,
+  title = {Marching Cubes: {{A}} High Resolution {{3D}} Surface Construction Algorithm},
+  shorttitle = {Marching Cubes},
+  author = {Lorensen, William E. and Cline, Harvey E.},
+  year = {1987},
+  month = aug,
+  journal = {ACM SIGGRAPH Computer Graphics},
+  volume = {21},
+  number = {4},
+  pages = {163--169},
+  issn = {0097-8930},
+  doi = {10.1145/37402.37422},
+  abstract = {We present a new algorithm, called marching cubes, that creates triangle models of constant density surfaces from 3D medical data. Using a divide-and-conquer approach to generate inter-slice connectivity, we create a case table that defines triangle topology. The algorithm processes the 3D medical data in scan-line order and calculates triangle vertices using linear interpolation. We find the gradient of the original data, normalize it, and use it as a basis for shading the models. The detail in images produced from the generated surface models is the result of maintaining the inter-slice connectivity, surface data, and gradient information present in the original 3D data. Results from computed tomography (CT), magnetic resonance (MR), and single-photon emission computed tomography (SPECT) illustrate the quality and functionality of marching cubes. We also discuss improvements that decrease processing time and add solid modeling capabilities.},
+  file = {/Users/kshitijgoel/Zotero/storage/GKD5XA6K/Lorensen and Cline - 1987 - Marching cubes A high resolution 3D surface const.pdf}
+}
+
+@article{mclachlan_number_2014,
+  title = {On the Number of Components in a {{Gaussian}} Mixture Model: {{Number}} of Components in a {{Gaussian}} Mixture Model},
+  shorttitle = {On the Number of Components in a {{Gaussian}} Mixture Model},
+  author = {McLachlan, Geoffrey J. and Rathnayake, Suren},
+  year = {2014},
+  month = sep,
+  journal = {Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery},
+  volume = {4},
+  number = {5},
+  pages = {341--355},
+  issn = {19424787},
+  doi = {10.1002/widm.1135},
+  langid = {english}
+}
+
+@article{mellinger_trajectory_nodate,
+  title = {Trajectory {{Generation}} and {{Control}} for {{Quadrotors}}},
+  author = {Mellinger, Daniel Warren},
+  pages = {137},
+  abstract = {This thesis presents contributions to the state-of-the-art in quadrotor control, payload transportation with single and multiple quadrotors, and trajectory generation for single and multiple quadrotors. In Ch. 2 we describe a controller capable of handling large roll and pitch angles that enables a quadrotor to follow trajectories requiring large accelerations and also recover from extreme initial conditions. In Ch. 3 we describe a method that allows teams of quadrotors to work together to carry payloads that they could not carry individually. In Ch. 4 we discuss an online parameter estimation method for quadrotors transporting payloads which enables a quadrotor to use its dynamics in order to learn about the payload it is carrying and also adapt its control law in order to improve tracking performance. In Ch. 5 we present a trajectory generation method that enables quadrotors to fly through narrow gaps at various orientations and perch on inclined surfaces. Chapter 6 discusses a method for generating dynamically optimal trajectories through a series of predefined waypoints and safe corridors and Ch. 7 extends that method to enable heterogeneous quadrotor teams to quickly rearrange formations and avoid a small number of obstacles.},
+  langid = {english},
+  file = {/Users/kshitijgoel/Zotero/storage/MC7KFXE9/Mellinger - Trajectory Generation and Control for Quadrotors.pdf}
+}
+
+@article{moravec_sensor_1988,
+  title = {Sensor {{Fusion}} in {{Certainty Grids}} for {{Mobile Robots}}},
+  author = {Moravec, Hans P.},
+  year = {1988},
+  month = jun,
+  journal = {AI Magazine},
+  volume = {9},
+  number = {2},
+  pages = {61--61},
+  issn = {2371-9621},
+  doi = {10.1609/aimag.v9i2.676},
+  copyright = {Copyright (c)},
+  langid = {english}
+}
+
+@article{murphy_mobile_2009,
+  title = {Mobile Robots in Mine Rescue and Recovery},
+  author = {Murphy, Robin R and Kravitz, Jeffery and Stover, Samuel L and Shoureshi, Rahmat},
+  year = {2009},
+  journal = {IEEE Robotics \& Automation Magazine},
+  volume = {16},
+  number = {2},
+  pages = {91--103},
+  publisher = {{IEEE}}
+}
+
+@article{nelson_environment_2018,
+  title = {Environment Model Adaptation for Mobile Robot Exploration},
+  author = {Nelson, Erik and Corah, Micah and Michael, Nathan},
+  year = {2018},
+  month = feb,
+  journal = {Autonomous Robots},
+  volume = {42},
+  number = {2},
+  pages = {257--272},
+  issn = {0929-5593, 1573-7527},
+  doi = {10.1007/s10514-017-9669-2},
+  langid = {english}
+}
+
+@inproceedings{newcombe_kinectfusion_2011,
+  title = {{{KinectFusion}}: {{Real-time}} Dense Surface Mapping and Tracking},
+  shorttitle = {{{KinectFusion}}},
+  booktitle = {2011 10th {{IEEE International Symposium}} on {{Mixed}} and {{Augmented Reality}}},
+  author = {Newcombe, Richard A. and Fitzgibbon, Andrew and Izadi, Shahram and Hilliges, Otmar and Molyneaux, David and Kim, David and Davison, Andrew J. and Kohi, Pushmeet and Shotton, Jamie and Hodges, Steve},
+  year = {2011},
+  month = oct,
+  pages = {127--136},
+  publisher = {{IEEE}},
+  address = {{Basel}},
+  doi = {10.1109/ISMAR.2011.6092378},
+  isbn = {978-1-4577-2183-0 978-1-4577-2185-4},
+  file = {/Users/kshitijgoel/Zotero/storage/9RK3DAXP/Newcombe et al. - 2011 - KinectFusion Real-time dense surface mapping and .pdf}
+}
+
+@article{niesner_real-time_2013,
+  title = {Real-Time {{3D}} Reconstruction at Scale Using Voxel Hashing},
+  author = {Nie{\ss}ner, Matthias and Zollh{\"o}fer, Michael and Izadi, Shahram and Stamminger, Marc},
+  year = {2013},
+  month = nov,
+  journal = {ACM Transactions on Graphics},
+  volume = {32},
+  number = {6},
+  pages = {169:1--169:11},
+  issn = {0730-0301},
+  doi = {10.1145/2508363.2508374},
+  abstract = {Online 3D reconstruction is gaining newfound interest due to the availability of real-time consumer depth cameras. The basic problem takes live overlapping depth maps as input and incrementally fuses these into a single 3D model. This is challenging particularly when real-time performance is desired without trading quality or scale. We contribute an online system for large and fine scale volumetric reconstruction based on a memory and speed efficient data structure. Our system uses a simple spatial hashing scheme that compresses space, and allows for real-time access and updates of implicit surface data, without the need for a regular or hierarchical grid data structure. Surface data is only stored densely where measurements are observed. Additionally, data can be streamed efficiently in or out of the hash table, allowing for further scalability during sensor motion. We show interactive reconstructions of a variety of scenes, reconstructing both fine-grained details and large scale environments. We illustrate how all parts of our pipeline from depth map pre-processing, camera pose estimation, depth map fusion, and surface rendering are performed at real-time rates on commodity graphics hardware. We conclude with a comparison to current state-of-the-art online systems, illustrating improved performance and reconstruction quality.},
+  keywords = {data structure,GPU,real-time reconstruction,scalable},
+  file = {/Users/kshitijgoel/Zotero/storage/ZVRE5XBI/Nießner et al. - 2013 - Real-time 3D reconstruction at scale using voxel h.pdf}
+}
+
+@article{ocallaghan_gaussian_2012,
+  title = {Gaussian Process Occupancy Maps},
+  author = {O'Callaghan, Simon T and Ramos, Fabio T},
+  year = {2012},
+  month = jan,
+  journal = {The International Journal of Robotics Research},
+  volume = {31},
+  number = {1},
+  pages = {42--62},
+  issn = {0278-3649, 1741-3176},
+  doi = {10.1177/0278364911421039},
+  abstract = {We introduce a new statistical modelling technique for building occupancy maps. The problem of mapping is addressed as a classification task where the robot's environment is classified into regions of occupancy and free space. This is obtained by employing a modified Gaussian process as a non-parametric Bayesian learning technique to exploit the fact that real-world environments inherently possess structure. This structure introduces dependencies between points on the map which are not accounted for by many common mapping techniques such as occupancy grids. Our approach is an `anytime' algorithm that is capable of generating accurate representations of large environments at arbitrary resolutions to suit many applications. It also provides inferences with associated variances into occluded regions and between sensor beams, even with relatively few observations. Crucially, the technique can handle noisy data, potentially from multiple sources, and fuse it into a robust common probabilistic representation of the robot's surroundings. We demonstrate the benefits of our approach on simulated datasets with known ground truth and in outdoor urban environments.},
+  langid = {english}
+}
+
+@book{principe_information_2010,
+  title = {Information Theoretic Learning: {{Renyi}}'s Entropy and Kernel Perspectives},
+  shorttitle = {Information Theoretic Learning},
+  author = {Principe, J. C.},
+  year = {2010},
+  series = {Information Science and Statistics},
+  publisher = {{Springer}},
+  address = {{New York}},
+  isbn = {978-1-4419-1569-6},
+  keywords = {Algorithms,Information science and statistics,Machine learning,Mathematical statistics}
+}
+
+@inproceedings{quan_eva-planner_2021,
+  title = {{{EVA-Planner}}: {{Environmental Adaptive Quadrotor Planning}}},
+  shorttitle = {{{EVA-Planner}}},
+  booktitle = {2021 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Quan, Lun and Zhang, Zhiwei and Zhong, Xingguang and Xu, Chao and Gao, Fei},
+  year = {2021},
+  month = may,
+  pages = {398--404},
+  issn = {2577-087X},
+  doi = {10.1109/ICRA48506.2021.9561759},
+  abstract = {The quadrotor is popularly used in challenging environments due to its superior agility and flexibility. In these scenarios, trajectory planning plays a vital role in generating safe motions to avoid obstacles while ensuring flight smoothness. Although many works on quadrotor planning have been proposed, a research gap exists in incorporating self-adaptation into a planning framework to enable a drone to automatically fly slower in denser environments and increase its speed in a safer area. In this paper, we propose an environmental adaptive planner to adjust the flight aggressiveness effectively based on the obstacle distribution and quadrotor state. Firstly, we design an environmental adaptive safety aware method to assign the priority of the surrounding obstacles according to the environmental risk level and instantaneous motion tendency. Then, we apply it into a multi-layered model predictive contouring control (Multi-MPCC) framework to generate adaptive, safe, and dynamical feasible local trajectories. Extensive simulations and real-world experiments verify the efficiency and robustness of our planning framework. Benchmark comparison also shows superior performances of our method with another advanced environmental adaptive planning algorithm. Moreover, we release our planning framework as open-source ros-packages1 .},
+  keywords = {Adaptation models,Heuristic algorithms,Planning,Prediction algorithms,Predictive models,Robustness,Trajectory planning},
+  file = {/Users/kshitijgoel/Zotero/storage/F7ZRK7SB/Quan et al. - 2021 - EVA-Planner Environmental Adaptive Quadrotor Plan.pdf;/Users/kshitijgoel/Zotero/storage/QVJYHHJR/9561759.html}
+}
+
+@article{ramos_hilbert_2016,
+  title = {Hilbert Maps: {{Scalable}} Continuous Occupancy Mapping with Stochastic Gradient Descent},
+  shorttitle = {Hilbert Maps},
+  author = {Ramos, Fabio and Ott, Lionel},
+  year = {2016},
+  month = dec,
+  journal = {The International Journal of Robotics Research},
+  volume = {35},
+  number = {14},
+  pages = {1717--1730},
+  issn = {0278-3649, 1741-3176},
+  doi = {10.1177/0278364916684382},
+  abstract = {The vast amount of data robots can capture today motivates the development of fast and scalable statistical tools to model the space the robot operates in. We devise a new technique for environment representation through continuous occupancy mapping that improves on the popular occupancy grip maps in two fundamental aspects: (1) it does not assume an a priori discrimination of the world into grid cells and therefore can provide maps at an arbitrary resolution; (2) it captures spatial relationships between measurements naturally, thus being more robust to outliers and possessing better generalization performance. The technique, named Hilbert maps, is based on the computation of fast kernel approximations that project the data in a Hilbert space where a logistic regression classifier is learnt. We show that this approach allows for efficient stochastic gradient optimization where each measurement is only processed once during learning in an online manner. We present results with three types of approximations: random Fourier; Nystr\"om; and a novel sparse projection. We also extend the approach to accept probability distributions as inputs, for example, due to uncertainty over the position of laser scans due to sensor or localization errors. In this extended version, experiments were conducted in two dimensions and three dimensions, using popular benchmark datasets. Furthermore, an analysis of the adaptive capabilities of the technique to handle large changes in the data, such as trajectory update before and after loop closure during simultaneous localization and mapping, is also included.},
+  langid = {english}
+}
+
+@inproceedings{saulnier_information_2020,
+  title = {Information {{Theoretic Active Exploration}} in {{Signed Distance Fields}}},
+  booktitle = {2020 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Saulnier, Kelsey and Atanasov, Nikolay and Pappas, George J. and Kumar, Vijay},
+  year = {2020},
+  month = may,
+  pages = {4080--4085},
+  issn = {2577-087X},
+  doi = {10.1109/ICRA40945.2020.9196882},
+  abstract = {This paper focuses on exploration and occupancy mapping of unknown environments using a mobile robot. While a truncated signed distance field (TSDF) is a popular, efficient, and highly accurate representation of occupancy, few works have considered optimizing robot sensing trajectories for autonomous TSDF mapping. We propose an efficient approach for maintaining TSDF uncertainty and predicting its evolution from potential future sensor measurements without actually receiving them. Efficient uncertainty prediction is critical for long-horizon optimization of potential sensing trajectories. We develop a deterministic tree-search algorithm that evaluates the information gain between the TSDF distribution and potential observations along sequences of robot motion primitives. Efficient planning is achieved by branch-and-bound pruning of uninformative sensing trajectories. The effectiveness of our active TSDF mapping approach is evaluated in several simulated environments with complex visibility constraints.},
+  keywords = {Measurement uncertainty,Robot sensing systems,Standards,Trajectory,Uncertainty}
+}
+
+@article{schneider_medical_2016,
+  title = {Medical and Logistical Challenges of Trauma Care in a 12-Day Cave Rescue: {{A}} Case Report},
+  author = {Schneider, Thomas-Michael and Bregani, Rino and Krammer, Jacob and G{\"o}ksu, Martin and M{\"u}ller, Natalie and Petermeyer, Michael and Schiffer, Johannes and Strapazzon, Giacomo and others},
+  year = {2016},
+  journal = {Injury},
+  volume = {47},
+  number = {1},
+  pages = {280--283},
+  publisher = {{Elsevier}}
+}
+
+@inproceedings{spitzer_fast_2020,
+  title = {Fast and {{Agile Vision-Based Flight}} with {{Teleoperation}} and {{Collision Avoidance}} on a {{Multirotor}}},
+  booktitle = {Proceedings of the 2018 {{International Symposium}} on {{Experimental Robotics}}},
+  author = {Spitzer, Alex and Yang, Xuning and Yao, John and Dhawale, Aditya and Goel, Kshitij and Dabhi, Mosam and Collins, Matt and Boirum, Curtis and Michael, Nathan},
+  editor = {Xiao, Jing and Kr{\"o}ger, Torsten and Khatib, Oussama},
+  year = {2020},
+  series = {Springer {{Proceedings}} in {{Advanced Robotics}}},
+  pages = {524--535},
+  publisher = {{Springer International Publishing}},
+  address = {{Cham}},
+  doi = {10.1007/978-3-030-33950-0_45},
+  copyright = {All rights reserved},
+  isbn = {978-3-030-33950-0},
+  langid = {english}
+}
+
+@article{srivastava_efficient_2019,
+  title = {Efficient, {{Multifidelity Perceptual Representations}} via {{Hierarchical Gaussian Mixture Models}}},
+  author = {Srivastava, Shobhit and Michael, Nathan},
+  year = {2019},
+  month = feb,
+  journal = {IEEE Transactions on Robotics},
+  volume = {35},
+  number = {1},
+  pages = {248--260},
+  issn = {1552-3098, 1941-0468},
+  doi = {10.1109/TRO.2018.2878363}
+}
+
+@article{stella-watts_epidemiology_2012,
+  title = {The Epidemiology of Caving Injuries in the {{United States}}},
+  author = {{Stella-Watts}, Alejandro C and Holstege, Christopher P and Lee, Jae K and Charlton, Nathan P},
+  year = {2012},
+  journal = {Wilderness \& environmental medicine},
+  volume = {23},
+  number = {3},
+  pages = {215--222},
+  publisher = {{Elsevier}}
+}
+
+@inproceedings{stork_ensemble_2020,
+  title = {Ensemble of {{Sparse Gaussian Process Experts}} for {{Implicit Surface Mapping}} with {{Streaming Data}}},
+  booktitle = {2020 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Stork, Johannes A. and Stoyanov, Todor},
+  year = {2020},
+  month = may,
+  pages = {10758--10764},
+  issn = {2577-087X},
+  doi = {10.1109/ICRA40945.2020.9196620},
+  abstract = {Creating maps is an essential task in robotics and provides the basis for effective planning and navigation. In this paper, we learn a compact and continuous implicit surface map of an environment from a stream of range data with known poses. For this, we create and incrementally adjust an ensemble of approximate Gaussian process (GP) experts which are each responsible for a different part of the map. Instead of inserting all arriving data into the GP models, we greedily trade-off between model complexity and prediction error. Our algorithm therefore uses less resources on areas with few geometric features and more where the environment is rich in variety. We evaluate our approach on synthetic and real-world data sets and analyze sensitivity to parameters and measurement noise. The results show that we can learn compact and accurate implicit surface models under different conditions, with a performance comparable to or better than that of exact GP regression with subsampled data.},
+  keywords = {Computational modeling,Covariance matrices,Data models,Gaussian processes,Measurement uncertainty,Predictive models,Surface treatment},
+  file = {/Users/kshitijgoel/Zotero/storage/Q5DC2BTY/Stork and Stoyanov - 2020 - Ensemble of Sparse Gaussian Process Experts for Im.pdf}
+}
+
+@article{strapazzon_caves_2014,
+  title = {{{CAVES}} as an Environment for Astronaut Training},
+  author = {Strapazzon, Giacomo and Pilo, Luca and Bessone, Loredana and Barratt, Michael R},
+  year = {2014},
+  journal = {Wilderness \& environmental medicine},
+  volume = {25},
+  number = {2},
+  pages = {244--245},
+  publisher = {{Elsevier}}
+}
+
+@article{tabib_autonomous_2021,
+  title = {Autonomous {{Cave Surveying With}} an {{Aerial Robot}}},
+  author = {Tabib, Wennie and Goel, Kshitij and Yao, John and Boirum, Curtis and Michael, Nathan},
+  year = {2021},
+  journal = {IEEE Transactions on Robotics},
+  pages = {1--17},
+  issn = {1552-3098, 1941-0468},
+  doi = {10.1109/TRO.2021.3104459},
+  copyright = {All rights reserved}
+}
+
+@inproceedings{tabib_real-time_2019,
+  title = {Real-{{Time Information-Theoretic Exploration}} with {{Gaussian Mixture Model Maps}}},
+  booktitle = {Robotics: {{Science}} and {{Systems XV}}},
+  author = {Tabib, Wennie and Goel, Kshitij and Yao, John and Dabhi, Mosam and Boirum, Curtis and Michael, Nathan},
+  year = {2019},
+  month = jun,
+  publisher = {{Robotics: Science and Systems Foundation}},
+  doi = {10.15607/RSS.2019.XV.061},
+  copyright = {All rights reserved},
+  isbn = {978-0-9923747-5-4}
+}
+
+@inproceedings{tordesillas_faster_2019,
+  title = {{{FASTER}}: {{Fast}} and {{Safe Trajectory Planner}} for {{Flights}} in {{Unknown Environments}}},
+  shorttitle = {{{FASTER}}},
+  booktitle = {2019 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
+  author = {Tordesillas, Jesus and Lopez, Brett T. and How, Jonathan P.},
+  year = {2019},
+  month = nov,
+  pages = {1934--1940},
+  issn = {2153-0866},
+  doi = {10.1109/IROS40897.2019.8968021},
+  abstract = {High-speed trajectory planning through unknown environments requires algorithmic techniques that enable fast reaction times while maintaining safety as new information about the operating environment is obtained. The requirement of computational tractability typically leads to optimization problems that do not include the obstacle constraints (collision checks are done on the solutions) or use a convex decomposition of the free space and then impose an ad-hoc time allocation scheme for each interval of the trajectory. Moreover, safety guarantees are usually obtained by having a local planner that plans a trajectory with a final ``stop'' condition in the freeknown space. However, these two decisions typically lead to slow and conservative trajectories. We propose FASTER (Fast and Safe Trajectory Planner) to overcome these issues. FASTER obtains high-speed trajectories by enabling the local planner to optimize in both the free-known and unknown spaces. Safety guarantees are ensured by always having a feasible, safe back-up trajectory in the free-known space at the start of each replanning step. Furthermore, we present a Mixed Integer Quadratic Program formulation in which the solver can choose the trajectory interval allocation, and where a time allocation heuristic is computed efficiently using the result of the previous replanning iteration. This proposed algorithm is tested extensively both in simulation and in real hardware, showing agile flights in unknown cluttered environments with velocities up to 3.6 m/s.},
+  file = {/Users/kshitijgoel/Zotero/storage/DRVLJIAU/Tordesillas et al. - 2019 - FASTER Fast and Safe Trajectory Planner for Fligh.pdf;/Users/kshitijgoel/Zotero/storage/TFL4QFJV/8968021.html}
+}
+
+@inproceedings{whelan_elasticfusion_2015,
+  title = {{{ElasticFusion}}: {{Dense SLAM Without A Pose Graph}}},
+  shorttitle = {{{ElasticFusion}}},
+  booktitle = {Robotics: {{Science}} and {{Systems XI}}},
+  author = {Whelan, Thomas and Leutenegger, Stefan and Salas Moreno, Renato and Glocker, Ben and Davison, Andrew},
+  year = {2015},
+  month = jul,
+  publisher = {{Robotics: Science and Systems Foundation}},
+  doi = {10.15607/RSS.2015.XI.001},
+  isbn = {978-0-9923747-1-6},
+  file = {/Users/kshitijgoel/Zotero/storage/BDVTK5A4/Whelan et al. - 2015 - ElasticFusion Dense SLAM Without A Pose Graph.pdf}
+}
+
+@article{whelan_real-time_2015,
+  title = {Real-Time Large-Scale Dense {{RGB-D SLAM}} with Volumetric Fusion},
+  author = {Whelan, Thomas and Kaess, Michael and Johannsson, Hordur and Fallon, Maurice and Leonard, John J. and McDonald, John},
+  year = {2015},
+  month = apr,
+  journal = {The International Journal of Robotics Research},
+  volume = {34},
+  number = {4-5},
+  pages = {598--626},
+  issn = {0278-3649, 1741-3176},
+  doi = {10.1177/0278364914551008},
+  abstract = {We present a new simultaneous localization and mapping (SLAM) system capable of producing high-quality globally consistent surface reconstructions over hundreds of meters in real time with only a low-cost commodity RGB-D sensor. By using a fused volumetric surface reconstruction we achieve a much higher quality map over what would be achieved using raw RGB-D point clouds. In this paper we highlight three key techniques associated with applying a volumetric fusion-based mapping system to the SLAM problem in real time. First, the use of a GPU-based 3D cyclical buffer trick to efficiently extend dense every-frame volumetric fusion of depth maps to function over an unbounded spatial region. Second, overcoming camera pose estimation limitations in a wide variety of environments by combining both dense geometric and photometric camera pose constraints. Third, efficiently updating the dense map according to place recognition and subsequent loop closure constraints by the use of an `as-rigid-as-possible' space deformation. We present results on a wide variety of aspects of the system and show through evaluation on de facto standard RGB-D benchmarks that our system performs strongly in terms of trajectory estimation, map quality and computational performance in comparison to other state-of-the-art systems.},
+  langid = {english},
+  file = {/Users/kshitijgoel/Zotero/storage/TW7RQJGR/Whelan et al. - 2015 - Real-time large-scale dense RGB-D SLAM with volume.pdf}
+}
+
+@article{wu_faithful_2021,
+  title = {Faithful {{Euclidean Distance Field From Log-Gaussian Process Implicit Surfaces}}},
+  author = {Wu, Lan and Lee, Ki Myung Brian and Liu, Liyang and {Vidal-Calleja}, Teresa},
+  year = {2021},
+  month = apr,
+  journal = {IEEE Robotics and Automation Letters},
+  volume = {6},
+  number = {2},
+  pages = {2461--2468},
+  issn = {2377-3766},
+  doi = {10.1109/LRA.2021.3061356},
+  abstract = {In this letter, we introduce the Log-Gaussian Process Implicit Surface (Log-GPIS), a novel continuous and probabilistic mapping representation suitable for surface reconstruction and local navigation. Our key contribution is the realisation that the regularised Eikonal equation can be simply solved by applying the logarithmic transformation to a GPIS formulation to recover the accurate Euclidean distance field (EDF) and, at the same time, the implicit surface. To derive the proposed representation, Varadhan's formula is exploited to approximate the non-linear Eikonal partial differential equation (PDE) of the EDF by the logarithm of a linear PDE. We show that members of the Mat\'ern covariance family directly satisfy this linear PDE. The proposed approach does not require post-processing steps to recover the EDF. Moreover, unlike sampling-based methods, Log-GPIS does not use sample points inside and outside the surface as the derivative of the covariance allow direct estimation of the surface normals and distance gradients. We benchmarked the proposed method on simulated and real data against state-of-the-art mapping frameworks that also aim at recovering both the surface and a distance field. Our experiments show that Log-GPIS produces the most accurate results for the EDF and comparable results for surface reconstruction and its computation time still allows online operations.},
+  keywords = {Euclidean distance,Euclidean distance field,gaussian process implicit surfaces,Heating systems,mapping,Mathematical model,Navigation,Probabilistic logic,Surface reconstruction,Surface treatment},
+  file = {/Users/kshitijgoel/Zotero/storage/EVMXXNTC/Wu et al. - 2021 - Faithful Euclidean Distance Field From Log-Gaussia.pdf}
+}
+
+@inproceedings{yan_online_2021,
+  title = {Online {{Learning}} of a {{Probabilistic}} and {{Adaptive Scene Representation}}},
+  booktitle = {2021 {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  author = {Yan, Zike and Wang, Xin and Zha, Hongbin},
+  year = {2021},
+  month = jun,
+  pages = {13106--13116},
+  issn = {2575-7075},
+  doi = {10.1109/CVPR46437.2021.01291},
+  abstract = {Constructing and maintaining a consistent scene model on-the-fly is the core task for online spatial perception, interpretation, and action. In this paper, we represent the scene with a Bayesian nonparametric mixture model, seamlessly describing per-point occupancy status with a continuous probability density function. Instead of following the conventional data fusion paradigm, we address the problem of online learning the process how sequential point cloud data are generated from the scene geometry. An incremental and parallel inference is performed to update the parameter space in real-time. We experimentally show that the proposed representation achieves state-of-the-art accuracy with promising efficiency. The consistent probabilistic formulation assures a generative model that is adaptive to different sensor characteristics, and the model complexity can be dynamically adjusted on-the-fly according to different data scales.},
+  keywords = {Adaptation models,Computational modeling,Data models,Geometry,Mixture models,Probabilistic logic,Probability density function},
+  file = {/Users/kshitijgoel/Zotero/storage/3LUUBGYZ/Yan et al. - 2021 - Online Learning of a Probabilistic and Adaptive Sc.pdf}
+}
+
+@article{zhou_raptor_2021,
+  title = {{{RAPTOR}}: {{Robust}} and {{Perception-Aware Trajectory Replanning}} for {{Quadrotor Fast Flight}}},
+  shorttitle = {{{RAPTOR}}},
+  author = {Zhou, Boyu and Pan, Jie and Gao, Fei and Shen, Shaojie},
+  year = {2021},
+  month = dec,
+  journal = {IEEE Transactions on Robotics},
+  volume = {37},
+  number = {6},
+  pages = {1992--2009},
+  issn = {1941-0468},
+  doi = {10.1109/TRO.2021.3071527},
+  abstract = {Recent advances in trajectory replanning have enabled quadrotor to navigate autonomously in unknown environments. However, high-speed navigation still remains a significant challenge. Given very limited time, existing methods have no strong guarantee on the feasibility or quality of the solutions. Moreover, most methods do not consider environment perception, which is the key bottleneck to fast flight. In this article, we present RAPTOR, a robust and perception-aware replanning framework to support fast and safe flight, which addresses these issues systematically. A path-guided optimization approach that incorporates multiple topological paths is devised, to ensure finding feasible and high-quality trajectories in very limited time. We also introduce two perception-aware planning approaches to actively observe and avoid unknown obstacles. A risk-aware trajectory refinement ensures that unknown obstacles which may endanger the quadrotor can be observed earlier and avoid in time. The motion of yaw angle is planned to actively explore the surrounding space that is relevant for safe navigation. The proposed methods are tested extensively through benchmark comparisons and challenging indoor and outdoor aggressive flights. We release our implementation as an open-source package1 for the community.},
+  keywords = {Aerial systems,collision avoidance,Collision avoidance,motion and path planning,Motion planning,Navigation,Optimization,Path planning,perception and autonomy,trajectory planning,Trajectory planning},
+  file = {/Users/kshitijgoel/Zotero/storage/MQFFQY9U/Zhou et al. - 2021 - RAPTOR Robust and Perception-Aware Trajectory Rep.pdf;/Users/kshitijgoel/Zotero/storage/VFIGRM2Y/9422918.html}
+}
+
+@inproceedings{zhu_online_2021,
+  title = {Online {{Informative Path Planning}} for {{Active Information Gathering}} of a {{3D Surface}}},
+  booktitle = {2021 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Zhu, Hai and Chung, Jen Jen and Lawrance, Nicholas R.J. and Siegwart, Roland and {Alonso-Mora}, Javier},
+  year = {2021},
+  month = may,
+  pages = {1488--1494},
+  issn = {2577-087X},
+  doi = {10.1109/ICRA48506.2021.9561963},
+  abstract = {This paper presents an online informative path planning approach for active information gathering on three-dimensional surfaces using aerial robots. Most existing works on surface inspection focus on planning a path offline that can provide full coverage of the surface, which inherently assumes the surface information is uniformly distributed hence ignoring potential spatial correlations of the information field. In this paper, we utilize manifold Gaussian processes (mGPs) with geodesic kernel functions for mapping surface information fields and plan informative paths online in a receding horizon manner. Our approach actively plans information-gathering paths based on recent observations that respect dynamic constraints of the vehicle and a total flight time budget. We provide planning results for simulated temperature modeling for simple and complex 3D surface geometries (a cylinder and an aircraft model). We demonstrate that our informative planning method outperforms traditional approaches such as 3D coverage planning and random exploration, both in reconstruction error and information-theoretic metrics. We also show that by taking spatial correlations of the information field into planning using mGPs, the information gathering efficiency is significantly improved.},
+  keywords = {Atmospheric modeling,Correlation,Path planning,Solid modeling,Surface reconstruction,Three-dimensional displays,Unmanned aerial vehicles},
+  file = {/Users/kshitijgoel/Zotero/storage/RX36E8G6/Zhu et al. - 2021 - Online Informative Path Planning for Active Inform.pdf}
+}
+
+@article{zhu_vdb-edt_2021,
+  title = {{{VDB-EDT}}: {{An Efficient Euclidean Distance Transform Algorithm Based}} on {{VDB Data Structure}}},
+  shorttitle = {{{VDB-EDT}}},
+  author = {Zhu, Delong and Wang, Chaoqun and Wang, Wenshan and Garg, Rohit and Scherer, Sebastian and Meng, Max Q.-H.},
+  year = {2021},
+  month = may,
+  journal = {arXiv:2105.04419 [cs]},
+  eprint = {2105.04419},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  abstract = {This paper presents a fundamental algorithm, called VDB-EDT, for Euclidean distance transform (EDT) based on the VDB data structure. The algorithm executes on grid maps and generates the corresponding distance field for recording distance information against obstacles, which forms the basis of numerous motion planning algorithms. The contributions of this work mainly lie in three folds. Firstly, we propose a novel algorithm that can facilitate distance transform procedures by optimizing the scheduling priorities of transform functions, which significantly improves the running speed of conventional EDT algorithms. Secondly, we for the first time introduce the memory-efficient VDB data structure, a customed B+ tree, to represent the distance field hierarchically. Benefiting from the special index and caching mechanism, VDB shows a fast (average \textbackslash textit\{O\}(1)) random access speed, and thus is very suitable for the frequent neighbor-searching operations in EDT. Moreover, regarding the small scale of existing datasets, we release a large-scale dataset captured from subterranean environments to benchmark EDT algorithms. Extensive experiments on the released dataset and publicly available datasets show that VDB-EDT can reduce memory consumption by about 30\%-85\%, depending on the sparsity of the environment, while maintaining a competitive running speed with the fastest array-based implementation. The experiments also show that VDB-EDT can significantly outperform the state-of-the-art EDT algorithm in both runtime and memory efficiency, which strongly demonstrates the advantages of our proposed method. The released dataset and source code are available on https://github.com/zhudelong/VDB-EDT.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Robotics},
+  file = {/Users/kshitijgoel/Zotero/storage/DJX5FTBW/Zhu et al. - 2021 - VDB-EDT An Efficient Euclidean Distance Transform.pdf;/Users/kshitijgoel/Zotero/storage/XPIAHMP5/2105.html}
+}
+
+

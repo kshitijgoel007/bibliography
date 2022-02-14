@@ -1,0 +1,197 @@
+
+@inproceedings{bylow_real-time_2013,
+  title = {Real-{{Time Camera Tracking}} and {{3D Reconstruction Using Signed Distance Functions}}},
+  booktitle = {Robotics: {{Science}} and {{Systems IX}}},
+  author = {Bylow, Erik and Sturm, J{\"u}rgen and Kerl, Christian and Kahl, Fredrik and Cremers, Daniel},
+  year = {2013},
+  month = jun,
+  publisher = {{Robotics: Science and Systems Foundation}},
+  doi = {10.15607/RSS.2013.IX.035},
+  isbn = {978-981-07-3937-9},
+  file = {/Users/kshitijgoel/Zotero/storage/4RZUHRP6/Bylow et al. - 2013 - Real-Time Camera Tracking and 3D Reconstruction Us.pdf}
+}
+
+@inproceedings{curless_volumetric_1996,
+  title = {A Volumetric Method for Building Complex Models from Range Images},
+  booktitle = {Proceedings of the 23rd Annual Conference on {{Computer}} Graphics and Interactive Techniques},
+  author = {Curless, Brian and Levoy, Marc},
+  year = {1996},
+  month = aug,
+  series = {{{SIGGRAPH}} '96},
+  pages = {303--312},
+  publisher = {{Association for Computing Machinery}},
+  address = {{New York, NY, USA}},
+  doi = {10.1145/237170.237269},
+  isbn = {978-0-89791-746-9},
+  keywords = {isosurface extraction,range image integration,surface fitting,three-dimensional shape recovery},
+  file = {/Users/kshitijgoel/Zotero/storage/4HCW3TE8/Curless and Levoy - 1996 - A volumetric method for building complex models fr.pdf}
+}
+
+@inproceedings{dhawale_efficient_2020,
+  title = {Efficient {{Parametric Multi-Fidelity Surface Mapping}}},
+  booktitle = {Robotics: {{Science}} and {{Systems XVI}}},
+  author = {Dhawale, Aditya and Michael, Nathan},
+  year = {2020},
+  month = jul,
+  publisher = {{Robotics: Science and Systems Foundation}},
+  doi = {10.15607/RSS.2020.XVI.073},
+  isbn = {978-0-9923747-6-1}
+}
+
+@inproceedings{guizilini_large-scale_2016,
+  title = {Large-Scale {{3D}} Scene Reconstruction with {{Hilbert Maps}}},
+  booktitle = {2016 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
+  author = {Guizilini, Vitor and Ramos, Fabio},
+  year = {2016},
+  month = oct,
+  pages = {3247--3254},
+  issn = {2153-0866},
+  doi = {10.1109/IROS.2016.7759501},
+  abstract = {3D scene reconstruction involves the volumetric modeling of space, and it is a fundamental step in a wide variety of robotic applications, including grasping, obstacle avoidance, path planning, mapping and many others. Nowadays, sensors are able to quickly collect vast amounts of data, and the challenge has become one of storing and processing all this information in a timely manner, especially if real-time performance is required. Recently, a novel technique for the stochastic learning of discriminative models through continuous occupancy maps was proposed: Hilbert Maps [18], that is able to represent the input space at an arbitrary resolution while capturing statistical relationships between measurements. The original framework was proposed for 2D environments, and here we extend it to higher-dimensional spaces, addressing some of the challenges brought by the curse of dimensionality. Namely, we propose a method for the automatic selection of feature coordinate locations, and introduce the concept of localized automatic relevance determination (LARD) to the Hilbert Maps framework, in which different dimensions in the projected Hilbert space operate within independent length-scale values. The proposed technique was tested against other state-of-the-art 3D scene reconstruction tools in three different datasets: a simulated indoors environment, RIEGL laser scans and dense LSD-SLAM pointclouds. The results testify to the proposed framework's ability to model complex structures and correctly interpolate over unobserved areas of the input space while achieving real-time training and querying performances.},
+  keywords = {Adaptation models,Clustering algorithms,Hilbert space,Stochastic processes,Three-dimensional displays,Training,Two dimensional displays}
+}
+
+@inproceedings{huang_di-fusion_2021,
+  title = {{{DI-Fusion}}: {{Online Implicit 3D Reconstruction}} with {{Deep Priors}}},
+  shorttitle = {{{DI-Fusion}}},
+  booktitle = {2021 {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  author = {Huang, Jiahui and Huang, Shi-Sheng and Song, Haoxuan and Hu, Shi-Min},
+  year = {2021},
+  month = jun,
+  pages = {8928--8937},
+  issn = {2575-7075},
+  doi = {10.1109/CVPR46437.2021.00882},
+  abstract = {Previous online 3D dense reconstruction methods struggle to achieve the balance between memory storage and surface quality, largely due to the usage of stagnant underlying geometry representation, such as TSDF (truncated signed distance functions) or surfels, without any knowledge of the scene priors. In this paper, we present DI-Fusion (Deep Implicit Fusion), based on a novel 3D representation, i.e. Probabilistic Local Implicit Voxels (PLIVoxs), for online 3D reconstruction with a commodity RGB-D camera. Our PLIVox encodes scene priors considering both the local geometry and uncertainty parameterized by a deep neural network. With such deep priors, we are able to perform online implicit 3D reconstruction achieving state-of-the-art camera trajectory estimation accuracy and mapping quality, while achieving better storage efficiency compared with previous online 3D reconstruction approaches. Our implementation is available at https://www.github.com/huangjh-pub/di-fusion.},
+  keywords = {Cameras,Geometry,Pose estimation,Reconstruction algorithms,Surface reconstruction,Three-dimensional displays,Uncertainty},
+  file = {/Users/kshitijgoel/Zotero/storage/S9CDJ66E/Huang et al. - 2021 - DI-Fusion Online Implicit 3D Reconstruction with .pdf}
+}
+
+@inproceedings{keller_real-time_2013,
+  title = {Real-{{Time 3D Reconstruction}} in {{Dynamic Scenes Using Point-Based Fusion}}},
+  booktitle = {2013 {{International Conference}} on {{3D Vision}} - {{3DV}} 2013},
+  author = {Keller, Maik and Lefloch, Damien and Lambers, Martin and Izadi, Shahram and Weyrich, Tim and Kolb, Andreas},
+  year = {2013},
+  month = jun,
+  pages = {1--8},
+  issn = {1550-6185},
+  doi = {10.1109/3DV.2013.9},
+  abstract = {Real-time or online 3D reconstruction has wide applicability and receives further interest due to availability of consumer depth cameras. Typical approaches use a moving sensor to accumulate depth measurements into a single model which is continuously refined. Designing such systems is an intricate balance between reconstruction quality, speed, spatial scale, and scene assumptions. Existing online methods either trade scale to achieve higher quality reconstructions of small objects/scenes. Or handle larger scenes by trading real-time performance and/or quality, or by limiting the bounds of the active reconstruction. Additionally, many systems assume a static scene, and cannot robustly handle scene motion or reconstructions that evolve to reflect scene changes. We address these limitations with a new system for real-time dense reconstruction with equivalent quality to existing online methods, but with support for additional spatial scale and robustness in dynamic scenes. Our system is designed around a simple and flat point-Based representation, which directly works with the input acquired from range/depth sensors, without the overhead of converting between representations. The use of points enables speed and memory efficiency, directly leveraging the standard graphics pipeline for all central operations, i.e., camera pose estimation, data association, outlier removal, fusion of depth maps into a single denoised model, and detection and update of dynamic objects. We conclude with qualitative and quantitative results that highlight robust tracking and high quality reconstructions of a diverse set of scenes at varying scales.},
+  keywords = {3D cameras and sensors,3D shape reconstruction,Cameras,Data models,Estimation,GPU,Iterative closest point algorithm,Kinect Fusion,Real-time,Robustness,Surface reconstruction,Three-dimensional displays}
+}
+
+@inproceedings{lee_online_2019,
+  title = {Online {{Continuous Mapping}} Using {{Gaussian Process Implicit Surfaces}}},
+  booktitle = {2019 {{International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Lee, Bhoram and Zhang, Clark and Huang, Zonghao and Lee, Daniel D.},
+  year = {2019},
+  month = may,
+  pages = {6884--6890},
+  doi = {10.1109/ICRA.2019.8794324},
+  keywords = {Noise measurement,Planning,Robot kinematics,Robot sensing systems,Surface treatment,Training}
+}
+
+@article{lorensen_marching_1987,
+  title = {Marching Cubes: {{A}} High Resolution {{3D}} Surface Construction Algorithm},
+  shorttitle = {Marching Cubes},
+  author = {Lorensen, William E. and Cline, Harvey E.},
+  year = {1987},
+  month = aug,
+  journal = {ACM SIGGRAPH Computer Graphics},
+  volume = {21},
+  number = {4},
+  pages = {163--169},
+  issn = {0097-8930},
+  doi = {10.1145/37402.37422},
+  abstract = {We present a new algorithm, called marching cubes, that creates triangle models of constant density surfaces from 3D medical data. Using a divide-and-conquer approach to generate inter-slice connectivity, we create a case table that defines triangle topology. The algorithm processes the 3D medical data in scan-line order and calculates triangle vertices using linear interpolation. We find the gradient of the original data, normalize it, and use it as a basis for shading the models. The detail in images produced from the generated surface models is the result of maintaining the inter-slice connectivity, surface data, and gradient information present in the original 3D data. Results from computed tomography (CT), magnetic resonance (MR), and single-photon emission computed tomography (SPECT) illustrate the quality and functionality of marching cubes. We also discuss improvements that decrease processing time and add solid modeling capabilities.},
+  file = {/Users/kshitijgoel/Zotero/storage/GKD5XA6K/Lorensen and Cline - 1987 - Marching cubes A high resolution 3D surface const.pdf}
+}
+
+@inproceedings{newcombe_kinectfusion_2011,
+  title = {{{KinectFusion}}: {{Real-time}} Dense Surface Mapping and Tracking},
+  shorttitle = {{{KinectFusion}}},
+  booktitle = {2011 10th {{IEEE International Symposium}} on {{Mixed}} and {{Augmented Reality}}},
+  author = {Newcombe, Richard A. and Fitzgibbon, Andrew and Izadi, Shahram and Hilliges, Otmar and Molyneaux, David and Kim, David and Davison, Andrew J. and Kohi, Pushmeet and Shotton, Jamie and Hodges, Steve},
+  year = {2011},
+  month = oct,
+  pages = {127--136},
+  publisher = {{IEEE}},
+  address = {{Basel}},
+  doi = {10.1109/ISMAR.2011.6092378},
+  isbn = {978-1-4577-2183-0 978-1-4577-2185-4},
+  file = {/Users/kshitijgoel/Zotero/storage/9RK3DAXP/Newcombe et al. - 2011 - KinectFusion Real-time dense surface mapping and .pdf}
+}
+
+@article{niesner_real-time_2013,
+  title = {Real-Time {{3D}} Reconstruction at Scale Using Voxel Hashing},
+  author = {Nie{\ss}ner, Matthias and Zollh{\"o}fer, Michael and Izadi, Shahram and Stamminger, Marc},
+  year = {2013},
+  month = nov,
+  journal = {ACM Transactions on Graphics},
+  volume = {32},
+  number = {6},
+  pages = {169:1--169:11},
+  issn = {0730-0301},
+  doi = {10.1145/2508363.2508374},
+  abstract = {Online 3D reconstruction is gaining newfound interest due to the availability of real-time consumer depth cameras. The basic problem takes live overlapping depth maps as input and incrementally fuses these into a single 3D model. This is challenging particularly when real-time performance is desired without trading quality or scale. We contribute an online system for large and fine scale volumetric reconstruction based on a memory and speed efficient data structure. Our system uses a simple spatial hashing scheme that compresses space, and allows for real-time access and updates of implicit surface data, without the need for a regular or hierarchical grid data structure. Surface data is only stored densely where measurements are observed. Additionally, data can be streamed efficiently in or out of the hash table, allowing for further scalability during sensor motion. We show interactive reconstructions of a variety of scenes, reconstructing both fine-grained details and large scale environments. We illustrate how all parts of our pipeline from depth map pre-processing, camera pose estimation, depth map fusion, and surface rendering are performed at real-time rates on commodity graphics hardware. We conclude with a comparison to current state-of-the-art online systems, illustrating improved performance and reconstruction quality.},
+  keywords = {data structure,GPU,real-time reconstruction,scalable},
+  file = {/Users/kshitijgoel/Zotero/storage/ZVRE5XBI/Nießner et al. - 2013 - Real-time 3D reconstruction at scale using voxel h.pdf}
+}
+
+@inproceedings{stork_ensemble_2020,
+  title = {Ensemble of {{Sparse Gaussian Process Experts}} for {{Implicit Surface Mapping}} with {{Streaming Data}}},
+  booktitle = {2020 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Stork, Johannes A. and Stoyanov, Todor},
+  year = {2020},
+  month = may,
+  pages = {10758--10764},
+  issn = {2577-087X},
+  doi = {10.1109/ICRA40945.2020.9196620},
+  abstract = {Creating maps is an essential task in robotics and provides the basis for effective planning and navigation. In this paper, we learn a compact and continuous implicit surface map of an environment from a stream of range data with known poses. For this, we create and incrementally adjust an ensemble of approximate Gaussian process (GP) experts which are each responsible for a different part of the map. Instead of inserting all arriving data into the GP models, we greedily trade-off between model complexity and prediction error. Our algorithm therefore uses less resources on areas with few geometric features and more where the environment is rich in variety. We evaluate our approach on synthetic and real-world data sets and analyze sensitivity to parameters and measurement noise. The results show that we can learn compact and accurate implicit surface models under different conditions, with a performance comparable to or better than that of exact GP regression with subsampled data.},
+  keywords = {Computational modeling,Covariance matrices,Data models,Gaussian processes,Measurement uncertainty,Predictive models,Surface treatment},
+  file = {/Users/kshitijgoel/Zotero/storage/Q5DC2BTY/Stork and Stoyanov - 2020 - Ensemble of Sparse Gaussian Process Experts for Im.pdf}
+}
+
+@inproceedings{whelan_elasticfusion_2015,
+  title = {{{ElasticFusion}}: {{Dense SLAM Without A Pose Graph}}},
+  shorttitle = {{{ElasticFusion}}},
+  booktitle = {Robotics: {{Science}} and {{Systems XI}}},
+  author = {Whelan, Thomas and Leutenegger, Stefan and Salas Moreno, Renato and Glocker, Ben and Davison, Andrew},
+  year = {2015},
+  month = jul,
+  publisher = {{Robotics: Science and Systems Foundation}},
+  doi = {10.15607/RSS.2015.XI.001},
+  isbn = {978-0-9923747-1-6},
+  file = {/Users/kshitijgoel/Zotero/storage/BDVTK5A4/Whelan et al. - 2015 - ElasticFusion Dense SLAM Without A Pose Graph.pdf}
+}
+
+@article{whelan_real-time_2015,
+  title = {Real-Time Large-Scale Dense {{RGB-D SLAM}} with Volumetric Fusion},
+  author = {Whelan, Thomas and Kaess, Michael and Johannsson, Hordur and Fallon, Maurice and Leonard, John J. and McDonald, John},
+  year = {2015},
+  month = apr,
+  journal = {The International Journal of Robotics Research},
+  volume = {34},
+  number = {4-5},
+  pages = {598--626},
+  issn = {0278-3649, 1741-3176},
+  doi = {10.1177/0278364914551008},
+  abstract = {We present a new simultaneous localization and mapping (SLAM) system capable of producing high-quality globally consistent surface reconstructions over hundreds of meters in real time with only a low-cost commodity RGB-D sensor. By using a fused volumetric surface reconstruction we achieve a much higher quality map over what would be achieved using raw RGB-D point clouds. In this paper we highlight three key techniques associated with applying a volumetric fusion-based mapping system to the SLAM problem in real time. First, the use of a GPU-based 3D cyclical buffer trick to efficiently extend dense every-frame volumetric fusion of depth maps to function over an unbounded spatial region. Second, overcoming camera pose estimation limitations in a wide variety of environments by combining both dense geometric and photometric camera pose constraints. Third, efficiently updating the dense map according to place recognition and subsequent loop closure constraints by the use of an `as-rigid-as-possible' space deformation. We present results on a wide variety of aspects of the system and show through evaluation on de facto standard RGB-D benchmarks that our system performs strongly in terms of trajectory estimation, map quality and computational performance in comparison to other state-of-the-art systems.},
+  langid = {english},
+  file = {/Users/kshitijgoel/Zotero/storage/TW7RQJGR/Whelan et al. - 2015 - Real-time large-scale dense RGB-D SLAM with volume.pdf}
+}
+
+@inproceedings{yan_online_2021,
+  title = {Online {{Learning}} of a {{Probabilistic}} and {{Adaptive Scene Representation}}},
+  booktitle = {2021 {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  author = {Yan, Zike and Wang, Xin and Zha, Hongbin},
+  year = {2021},
+  month = jun,
+  pages = {13106--13116},
+  issn = {2575-7075},
+  doi = {10.1109/CVPR46437.2021.01291},
+  abstract = {Constructing and maintaining a consistent scene model on-the-fly is the core task for online spatial perception, interpretation, and action. In this paper, we represent the scene with a Bayesian nonparametric mixture model, seamlessly describing per-point occupancy status with a continuous probability density function. Instead of following the conventional data fusion paradigm, we address the problem of online learning the process how sequential point cloud data are generated from the scene geometry. An incremental and parallel inference is performed to update the parameter space in real-time. We experimentally show that the proposed representation achieves state-of-the-art accuracy with promising efficiency. The consistent probabilistic formulation assures a generative model that is adaptive to different sensor characteristics, and the model complexity can be dynamically adjusted on-the-fly according to different data scales.},
+  keywords = {Adaptation models,Computational modeling,Data models,Geometry,Mixture models,Probabilistic logic,Probability density function},
+  file = {/Users/kshitijgoel/Zotero/storage/3LUUBGYZ/Yan et al. - 2021 - Online Learning of a Probabilistic and Adaptive Sc.pdf}
+}
+
+

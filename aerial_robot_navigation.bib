@@ -1,0 +1,131 @@
+
+@inproceedings{burri_real-time_2015,
+  title = {Real-Time Visual-Inertial Mapping, Re-Localization and Planning Onboard {{MAVs}} in Unknown Environments},
+  booktitle = {2015 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
+  author = {Burri, Michael and Oleynikova, Helen and Achtelik, Markus W. and Siegwart, Roland},
+  year = {2015},
+  month = sep,
+  pages = {1872--1878},
+  doi = {10.1109/IROS.2015.7353622},
+  abstract = {In this work, we present an MAV system that is able to relocalize itself, create consistent maps and plan paths in full 3D in previously unknown environments. This is solely based on vision and IMU measurements with all components running onboard and in real-time. We use visual-inertial odometry to keep the MAV airborne safely locally, as well as for exploration of the environment based on high-level input by an operator. A globally consistent map is constructed in the background, which is then used to correct for drift of the visual odometry algorithm. This map serves as an input to our proposed global planner, which finds dynamic 3D paths to any previously visited place in the map, without the use of teach and repeat algorithms. In contrast to previous work, all components are executed onboard and in real-time without any prior knowledge of the environment.},
+  keywords = {Buildings,Cameras,Helicopters,Inspection,Planning,Real-time systems,Visualization},
+  file = {/Users/kshitijgoel/Zotero/storage/SBKYJLQI/Burri et al. - 2015 - Real-time visual-inertial mapping, re-localization.pdf;/Users/kshitijgoel/Zotero/storage/R8TIT87X/7353622.html}
+}
+
+@inproceedings{heiden_planning_2017,
+  title = {Planning High-Speed Safe Trajectories in Confidence-Rich Maps},
+  booktitle = {2017 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
+  author = {Heiden, Eric and Hausman, Karol and Sukhatme, Gaurav S. and {Agha-mohammadi}, Ali-akbar},
+  year = {2017},
+  month = sep,
+  pages = {2880--2886},
+  issn = {2153-0866},
+  doi = {10.1109/IROS.2017.8206120},
+  abstract = {Planning safe, high-speed trajectories in unknown environments remains a major roadblock on the way toward achieving fast autonomous flight. Current state-of-the-art planning approaches use sampling-based methods or trajectory optimization to obtain fast trajectories, whose safety is evaluated by taking into account the current state estimate of the environment. In unknown environments, however, this leads to numerous stops caused by the need for re-planning the trajectory due to unexpected obstacles. In this paper, we propose to use an active perception paradigm for planning. We predict the future uncertainty of the map and optimize trajectories to minimize re-planning risk. This leads to faster and safer trajectories. We evaluate the proposed planning approach in a series of simulation experiments, which show that we are able to achieve safer trajectories with a smaller number of re-planning stops and faster speeds.},
+  keywords = {Optimization,Planning,Probabilistic logic,Robots,Sensors,Trajectory,Uncertainty},
+  file = {/Users/kshitijgoel/Zotero/storage/GSK9DAQE/Heiden et al. - 2017 - Planning high-speed safe trajectories in confidenc.pdf;/Users/kshitijgoel/Zotero/storage/CMZ5R96T/8206120.html}
+}
+
+@inproceedings{li_fast_2020,
+  title = {Fast and {{Safe Path-Following Control}} Using a {{State-Dependent Directional Metric}}},
+  booktitle = {2020 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Li, Zhichao and Arslan, {\"O}m{\"u}r and Atanasov, Nikolay},
+  year = {2020},
+  month = may,
+  pages = {6176--6182},
+  issn = {2577-087X},
+  doi = {10.1109/ICRA40945.2020.9197377},
+  abstract = {This paper considers the problem of fast and safe autonomous navigation in partially known environments. Our main contribution is a control policy design based on ellipsoidal trajectory bounds obtained from a quadratic state-dependent distance metric. The ellipsoidal bounds are used to embed directional preference in the control design, leading to system behavior that is adapted to local environment geometry, carefully considering medial obstacles while paying less attention to lateral ones. We use a virtual reference governor system to adaptively follow a desired navigation path, slowing down when system safety may be violated and speeding up otherwise. The resulting controller is able to navigate complex environments faster than common Euclidean-norm and Lyapunov-function-based designs, while retaining stability and collision avoidance guarantees.},
+  keywords = {Aerospace electronics,Collision avoidance,Measurement,Navigation,Robots,Safety,Trajectory},
+  file = {/Users/kshitijgoel/Zotero/storage/T7B7PWEI/Li et al. - 2020 - Fast and Safe Path-Following Control using a State.pdf;/Users/kshitijgoel/Zotero/storage/HHLJF8FM/9197377.html}
+}
+
+@inproceedings{liu_high_2016,
+  title = {High Speed Navigation for Quadrotors with Limited Onboard Sensing},
+  booktitle = {2016 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Liu, Sikang and Watterson, Michael and Tang, Sarah and Kumar, Vijay},
+  year = {2016},
+  month = may,
+  pages = {1484--1491},
+  doi = {10.1109/ICRA.2016.7487284},
+  abstract = {We address the problem of high speed autonomous navigation of quadrotor micro aerial vehicles with limited onboard sensing and computation. In particular, we propose a dual range planning horizon method to safely and quickly navigate quadrotors to specified goal locations in previously unknown and unstructured environments. In each planning epoch, a short-range planner uses a local map to generate a new trajectory. At the same time, a safe stopping policy is found. This allows the robot to come to an emergency halt when necessary. Our algorithm guarantees collision avoidance and demonstrates important advances in real-time planning. First, our novel short range planning method allows us to generate and re-plan trajectories that are dynamically feasible, comply with state and input constraints, and avoid obstacles in real-time. Further, previous planning algorithms abstract away the obstacle detection problem by assuming the instantaneous availability of geometric information about the environment. In contrast, our method addresses the challenge of using the raw sensor data to form a map and navigate in real-time. Finally, in addition to simulation examples, we provide physical experiments that demonstrate the entire algorithmic pipeline from obstacle detection to trajectory execution.},
+  keywords = {Collision avoidance,Navigation,Planning,Real-time systems,Robot sensing systems,Trajectory},
+  file = {/Users/kshitijgoel/Zotero/storage/6HTQNI49/Liu et al. - 2016 - High speed navigation for quadrotors with limited .pdf;/Users/kshitijgoel/Zotero/storage/6K5WB74N/7487284.html}
+}
+
+@inproceedings{lopez_aggressive_2017,
+  title = {Aggressive 3-{{D}} Collision Avoidance for High-Speed Navigation},
+  booktitle = {2017 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Lopez, Brett T. and How, Jonathan P.},
+  year = {2017},
+  month = may,
+  pages = {5759--5765},
+  doi = {10.1109/ICRA.2017.7989677},
+  abstract = {Autonomous robot navigation through unknown, cluttered environments at high-speeds is still an open problem. Quadrotor platforms with this capability have only begun to emerge with the advancements in light-weight, small form factor sensing and computing. Many of the existing platforms, however, require excessive computation time to perform collision avoidance, which ultimately limits the vehicle's top speed. This work presents an efficient perception and planning approach that significantly reduces the computation time by using instantaneous perception data for collision avoidance. Minimum-time, state and input constrained motion primitives are generated by sampling terminal states until a collision-free path is found. The worst case performance of the Triple Integrator Planner (TIP) is nearly an order of magnitude faster than the state-of-the-art. Experimental results demonstrate the algorithm's ability to plan and execute aggressive collision avoidance maneuvers in highly cluttered environments.},
+  keywords = {Collision avoidance,Computational modeling,Navigation,Planning,Robot sensing systems,Three-dimensional displays,Trajectory},
+  file = {/Users/kshitijgoel/Zotero/storage/HS2JWSN5/Lopez and How - 2017 - Aggressive 3-D collision avoidance for high-speed .pdf;/Users/kshitijgoel/Zotero/storage/9YG7LSUE/7989677.html}
+}
+
+@inproceedings{quan_eva-planner_2021,
+  title = {{{EVA-Planner}}: {{Environmental Adaptive Quadrotor Planning}}},
+  shorttitle = {{{EVA-Planner}}},
+  booktitle = {2021 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Quan, Lun and Zhang, Zhiwei and Zhong, Xingguang and Xu, Chao and Gao, Fei},
+  year = {2021},
+  month = may,
+  pages = {398--404},
+  issn = {2577-087X},
+  doi = {10.1109/ICRA48506.2021.9561759},
+  abstract = {The quadrotor is popularly used in challenging environments due to its superior agility and flexibility. In these scenarios, trajectory planning plays a vital role in generating safe motions to avoid obstacles while ensuring flight smoothness. Although many works on quadrotor planning have been proposed, a research gap exists in incorporating self-adaptation into a planning framework to enable a drone to automatically fly slower in denser environments and increase its speed in a safer area. In this paper, we propose an environmental adaptive planner to adjust the flight aggressiveness effectively based on the obstacle distribution and quadrotor state. Firstly, we design an environmental adaptive safety aware method to assign the priority of the surrounding obstacles according to the environmental risk level and instantaneous motion tendency. Then, we apply it into a multi-layered model predictive contouring control (Multi-MPCC) framework to generate adaptive, safe, and dynamical feasible local trajectories. Extensive simulations and real-world experiments verify the efficiency and robustness of our planning framework. Benchmark comparison also shows superior performances of our method with another advanced environmental adaptive planning algorithm. Moreover, we release our planning framework as open-source ros-packages1 .},
+  keywords = {Adaptation models,Heuristic algorithms,Planning,Prediction algorithms,Predictive models,Robustness,Trajectory planning},
+  file = {/Users/kshitijgoel/Zotero/storage/F7ZRK7SB/Quan et al. - 2021 - EVA-Planner Environmental Adaptive Quadrotor Plan.pdf;/Users/kshitijgoel/Zotero/storage/QVJYHHJR/9561759.html}
+}
+
+@inproceedings{spitzer_fast_2020,
+  title = {Fast and {{Agile Vision-Based Flight}} with {{Teleoperation}} and {{Collision Avoidance}} on a {{Multirotor}}},
+  booktitle = {Proceedings of the 2018 {{International Symposium}} on {{Experimental Robotics}}},
+  author = {Spitzer, Alex and Yang, Xuning and Yao, John and Dhawale, Aditya and Goel, Kshitij and Dabhi, Mosam and Collins, Matt and Boirum, Curtis and Michael, Nathan},
+  editor = {Xiao, Jing and Kr{\"o}ger, Torsten and Khatib, Oussama},
+  year = {2020},
+  series = {Springer {{Proceedings}} in {{Advanced Robotics}}},
+  pages = {524--535},
+  publisher = {{Springer International Publishing}},
+  address = {{Cham}},
+  doi = {10.1007/978-3-030-33950-0_45},
+  copyright = {All rights reserved},
+  isbn = {978-3-030-33950-0},
+  langid = {english}
+}
+
+@inproceedings{tordesillas_faster_2019,
+  title = {{{FASTER}}: {{Fast}} and {{Safe Trajectory Planner}} for {{Flights}} in {{Unknown Environments}}},
+  shorttitle = {{{FASTER}}},
+  booktitle = {2019 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
+  author = {Tordesillas, Jesus and Lopez, Brett T. and How, Jonathan P.},
+  year = {2019},
+  month = nov,
+  pages = {1934--1940},
+  issn = {2153-0866},
+  doi = {10.1109/IROS40897.2019.8968021},
+  abstract = {High-speed trajectory planning through unknown environments requires algorithmic techniques that enable fast reaction times while maintaining safety as new information about the operating environment is obtained. The requirement of computational tractability typically leads to optimization problems that do not include the obstacle constraints (collision checks are done on the solutions) or use a convex decomposition of the free space and then impose an ad-hoc time allocation scheme for each interval of the trajectory. Moreover, safety guarantees are usually obtained by having a local planner that plans a trajectory with a final ``stop'' condition in the freeknown space. However, these two decisions typically lead to slow and conservative trajectories. We propose FASTER (Fast and Safe Trajectory Planner) to overcome these issues. FASTER obtains high-speed trajectories by enabling the local planner to optimize in both the free-known and unknown spaces. Safety guarantees are ensured by always having a feasible, safe back-up trajectory in the free-known space at the start of each replanning step. Furthermore, we present a Mixed Integer Quadratic Program formulation in which the solver can choose the trajectory interval allocation, and where a time allocation heuristic is computed efficiently using the result of the previous replanning iteration. This proposed algorithm is tested extensively both in simulation and in real hardware, showing agile flights in unknown cluttered environments with velocities up to 3.6 m/s.},
+  file = {/Users/kshitijgoel/Zotero/storage/DRVLJIAU/Tordesillas et al. - 2019 - FASTER Fast and Safe Trajectory Planner for Fligh.pdf;/Users/kshitijgoel/Zotero/storage/TFL4QFJV/8968021.html}
+}
+
+@article{zhou_raptor_2021,
+  title = {{{RAPTOR}}: {{Robust}} and {{Perception-Aware Trajectory Replanning}} for {{Quadrotor Fast Flight}}},
+  shorttitle = {{{RAPTOR}}},
+  author = {Zhou, Boyu and Pan, Jie and Gao, Fei and Shen, Shaojie},
+  year = {2021},
+  month = dec,
+  journal = {IEEE Transactions on Robotics},
+  volume = {37},
+  number = {6},
+  pages = {1992--2009},
+  issn = {1941-0468},
+  doi = {10.1109/TRO.2021.3071527},
+  abstract = {Recent advances in trajectory replanning have enabled quadrotor to navigate autonomously in unknown environments. However, high-speed navigation still remains a significant challenge. Given very limited time, existing methods have no strong guarantee on the feasibility or quality of the solutions. Moreover, most methods do not consider environment perception, which is the key bottleneck to fast flight. In this article, we present RAPTOR, a robust and perception-aware replanning framework to support fast and safe flight, which addresses these issues systematically. A path-guided optimization approach that incorporates multiple topological paths is devised, to ensure finding feasible and high-quality trajectories in very limited time. We also introduce two perception-aware planning approaches to actively observe and avoid unknown obstacles. A risk-aware trajectory refinement ensures that unknown obstacles which may endanger the quadrotor can be observed earlier and avoid in time. The motion of yaw angle is planned to actively explore the surrounding space that is relevant for safe navigation. The proposed methods are tested extensively through benchmark comparisons and challenging indoor and outdoor aggressive flights. We release our implementation as an open-source package1 for the community.},
+  keywords = {Aerial systems,collision avoidance,Collision avoidance,motion and path planning,Motion planning,Navigation,Optimization,Path planning,perception and autonomy,trajectory planning,Trajectory planning},
+  file = {/Users/kshitijgoel/Zotero/storage/MQFFQY9U/Zhou et al. - 2021 - RAPTOR Robust and Perception-Aware Trajectory Rep.pdf;/Users/kshitijgoel/Zotero/storage/VFIGRM2Y/9422918.html}
+}
+
+

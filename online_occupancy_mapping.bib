@@ -1,0 +1,119 @@
+
+@inproceedings{doherty_probabilistic_2016,
+  title = {Probabilistic Map Fusion for Fast, Incremental Occupancy Mapping with {{3D Hilbert}} Maps},
+  booktitle = {2016 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Doherty, Kevin and Wang, Jinkun and Englot, Brendan},
+  year = {2016},
+  month = may,
+  pages = {1011--1018},
+  doi = {10.1109/ICRA.2016.7487233},
+  keywords = {Gaussian processes,Kernel,Logistics,Robot sensing systems,Training}
+}
+
+@article{elfes_using_1989,
+  title = {Using Occupancy Grids for Mobile Robot Perception and Navigation},
+  author = {Elfes, A.},
+  year = {1989},
+  month = jun,
+  journal = {Computer},
+  volume = {22},
+  number = {6},
+  pages = {46--57},
+  issn = {1558-0814},
+  doi = {10.1109/2.30720},
+  keywords = {Decision making,Mobile robots,Navigation,Path planning,Remotely operated vehicles,Robot kinematics,Robot sensing systems,Robustness,Service robots,State estimation}
+}
+
+@article{hornung_octomap_2013,
+  title = {{{OctoMap}}: An Efficient Probabilistic {{3D}} Mapping Framework Based on Octrees},
+  shorttitle = {{{OctoMap}}},
+  author = {Hornung, Armin and Wurm, Kai M. and Bennewitz, Maren and Stachniss, Cyrill and Burgard, Wolfram},
+  year = {2013},
+  month = apr,
+  journal = {Autonomous Robots},
+  volume = {34},
+  number = {3},
+  pages = {189--206},
+  issn = {1573-7527},
+  doi = {10.1007/s10514-012-9321-0},
+  langid = {english}
+}
+
+@incollection{kim_gpmap_2015,
+  title = {{{GPmap}}: {{A Unified Framework}} for {{Robotic Mapping Based}} on {{Sparse Gaussian Processes}}},
+  shorttitle = {{{GPmap}}},
+  booktitle = {Field and {{Service Robotics}}: {{Results}} of the 9th {{International Conference}}},
+  author = {Kim, Soohwan and Kim, Jonghyuk},
+  editor = {Mejias, Luis and Corke, Peter and Roberts, Jonathan},
+  year = {2015},
+  series = {Springer {{Tracts}} in {{Advanced Robotics}}},
+  pages = {319--332},
+  publisher = {{Springer International Publishing}},
+  address = {{Cham}},
+  doi = {10.1007/978-3-319-07488-7_22},
+  abstract = {This paper proposes a unified framework called GPmap for reconstructing surface meshes and building continuous occupancy maps using sparse Gaussian processes. Previously, Gaussian processes have been separately applied for surface reconstruction and occupancy mapping with different function definitions. However, by adopting the signed distance function as the latent function and applying the probabilistic least square classification, we solve two different problems in a single framework. Thus, two different map representations can be obtained at a single cast, for instance, an object shape for grasping and an occupancy map for obstacle avoidance. Another contribution of this paper is reduction of computational complexity for scalability. The cubic computational complexity of Gaussian processes is a well-known issue limiting its applications for large-scale data. We address this by applying the sparse covariance function which makes distant data independent and thus divides both training and test data into grid blocks of manageable sizes. In contrast to previous work, the size of grid blocks is determined in a principled way by learning the characteristic length-scale of the sparse covariance function from the training data. We compare theoretical complexity with previous work and demonstrate our method with structured indoor and unstructured outdoor datasets.},
+  isbn = {978-3-319-07488-7},
+  langid = {english},
+  keywords = {Covariance Function,Gaussian Process,Grid Block,Point Cloud,Test Position}
+}
+
+@article{moravec_sensor_1988,
+  title = {Sensor {{Fusion}} in {{Certainty Grids}} for {{Mobile Robots}}},
+  author = {Moravec, Hans P.},
+  year = {1988},
+  month = jun,
+  journal = {AI Magazine},
+  volume = {9},
+  number = {2},
+  pages = {61--61},
+  issn = {2371-9621},
+  doi = {10.1609/aimag.v9i2.676},
+  copyright = {Copyright (c)},
+  langid = {english}
+}
+
+@article{ocallaghan_gaussian_2012,
+  title = {Gaussian Process Occupancy Maps},
+  author = {O'Callaghan, Simon T and Ramos, Fabio T},
+  year = {2012},
+  month = jan,
+  journal = {The International Journal of Robotics Research},
+  volume = {31},
+  number = {1},
+  pages = {42--62},
+  issn = {0278-3649, 1741-3176},
+  doi = {10.1177/0278364911421039},
+  abstract = {We introduce a new statistical modelling technique for building occupancy maps. The problem of mapping is addressed as a classification task where the robot's environment is classified into regions of occupancy and free space. This is obtained by employing a modified Gaussian process as a non-parametric Bayesian learning technique to exploit the fact that real-world environments inherently possess structure. This structure introduces dependencies between points on the map which are not accounted for by many common mapping techniques such as occupancy grids. Our approach is an `anytime' algorithm that is capable of generating accurate representations of large environments at arbitrary resolutions to suit many applications. It also provides inferences with associated variances into occluded regions and between sensor beams, even with relatively few observations. Crucially, the technique can handle noisy data, potentially from multiple sources, and fuse it into a robust common probabilistic representation of the robot's surroundings. We demonstrate the benefits of our approach on simulated datasets with known ground truth and in outdoor urban environments.},
+  langid = {english}
+}
+
+@article{ramos_hilbert_2016,
+  title = {Hilbert Maps: {{Scalable}} Continuous Occupancy Mapping with Stochastic Gradient Descent},
+  shorttitle = {Hilbert Maps},
+  author = {Ramos, Fabio and Ott, Lionel},
+  year = {2016},
+  month = dec,
+  journal = {The International Journal of Robotics Research},
+  volume = {35},
+  number = {14},
+  pages = {1717--1730},
+  issn = {0278-3649, 1741-3176},
+  doi = {10.1177/0278364916684382},
+  abstract = {The vast amount of data robots can capture today motivates the development of fast and scalable statistical tools to model the space the robot operates in. We devise a new technique for environment representation through continuous occupancy mapping that improves on the popular occupancy grip maps in two fundamental aspects: (1) it does not assume an a priori discrimination of the world into grid cells and therefore can provide maps at an arbitrary resolution; (2) it captures spatial relationships between measurements naturally, thus being more robust to outliers and possessing better generalization performance. The technique, named Hilbert maps, is based on the computation of fast kernel approximations that project the data in a Hilbert space where a logistic regression classifier is learnt. We show that this approach allows for efficient stochastic gradient optimization where each measurement is only processed once during learning in an online manner. We present results with three types of approximations: random Fourier; Nystr\"om; and a novel sparse projection. We also extend the approach to accept probability distributions as inputs, for example, due to uncertainty over the position of laser scans due to sensor or localization errors. In this extended version, experiments were conducted in two dimensions and three dimensions, using popular benchmark datasets. Furthermore, an analysis of the adaptive capabilities of the technique to handle large changes in the data, such as trajectory update before and after loop closure during simultaneous localization and mapping, is also included.},
+  langid = {english}
+}
+
+@article{srivastava_efficient_2019,
+  title = {Efficient, {{Multifidelity Perceptual Representations}} via {{Hierarchical Gaussian Mixture Models}}},
+  author = {Srivastava, Shobhit and Michael, Nathan},
+  year = {2019},
+  month = feb,
+  journal = {IEEE Transactions on Robotics},
+  volume = {35},
+  number = {1},
+  pages = {248--260},
+  issn = {1552-3098, 1941-0468},
+  doi = {10.1109/TRO.2018.2878363}
+}
+
+
