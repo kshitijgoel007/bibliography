@@ -19,9 +19,7 @@
   pages = {1843--1848},
   issn = {1050-4729},
   doi = {10.1109/ICRA.2011.5980084},
-  abstract = {For robot mapping occupancy grid maps are the most common representation of the environment. However, most existing algorithms for creating such maps assume a fixed resolution of the grid cells. In this paper we present a novel mapping technique that chooses the resolution of each cell adaptively by merging and splitting cells depending on the measurements. The splitting of the cells is based on a statistical measure that we derive in this paper. In contrast to other approaches the adaption of the resolution is done online during the mapping process itself. Additionally, we introduce the Nd-Tree, a generalization of quadtrees and octrees that allows to subdivide any d-dimensional volume recursively with Nd children per node. Using this data structure our approach can be implemented in a very generic way and allows the creation of 2D, 3D and even higher dimensional maps using the same algorithm. Finally, we show results of our proposed method for 2D and 3D mapping using different kinds of range sensors.},
-  keywords = {Histograms,Octrees,Robots,Sensors,Three dimensional displays,Volume measurement},
-  file = {/Users/kshitijgoel/Zotero/storage/AJMWWH5X/Einhorn et al. - 2011 - Finding the adequate resolution for grid mapping -.pdf;/Users/kshitijgoel/Zotero/storage/XWCQYV4K/5980084.html}
+  keywords = {Histograms,Octrees,Robots,Sensors,Three dimensional displays,Volume measurement}
 }
 
 @article{elfes_using_1989,
@@ -50,6 +48,8 @@
   pages = {189--206},
   issn = {1573-7527},
   doi = {10.1007/s10514-012-9321-0},
+  url = {https://doi.org/10.1007/s10514-012-9321-0},
+  urldate = {2021-12-22},
   langid = {english}
 }
 
@@ -65,7 +65,8 @@
   publisher = {{Springer International Publishing}},
   address = {{Cham}},
   doi = {10.1007/978-3-319-07488-7_22},
-  abstract = {This paper proposes a unified framework called GPmap for reconstructing surface meshes and building continuous occupancy maps using sparse Gaussian processes. Previously, Gaussian processes have been separately applied for surface reconstruction and occupancy mapping with different function definitions. However, by adopting the signed distance function as the latent function and applying the probabilistic least square classification, we solve two different problems in a single framework. Thus, two different map representations can be obtained at a single cast, for instance, an object shape for grasping and an occupancy map for obstacle avoidance. Another contribution of this paper is reduction of computational complexity for scalability. The cubic computational complexity of Gaussian processes is a well-known issue limiting its applications for large-scale data. We address this by applying the sparse covariance function which makes distant data independent and thus divides both training and test data into grid blocks of manageable sizes. In contrast to previous work, the size of grid blocks is determined in a principled way by learning the characteristic length-scale of the sparse covariance function from the training data. We compare theoretical complexity with previous work and demonstrate our method with structured indoor and unstructured outdoor datasets.},
+  url = {https://doi.org/10.1007/978-3-319-07488-7_22},
+  urldate = {2022-02-06},
   isbn = {978-3-319-07488-7},
   langid = {english},
   keywords = {Covariance Function,Gaussian Process,Grid Block,Point Cloud,Test Position}
@@ -82,7 +83,8 @@
   pages = {42--62},
   issn = {0278-3649, 1741-3176},
   doi = {10.1177/0278364911421039},
-  abstract = {We introduce a new statistical modelling technique for building occupancy maps. The problem of mapping is addressed as a classification task where the robot's environment is classified into regions of occupancy and free space. This is obtained by employing a modified Gaussian process as a non-parametric Bayesian learning technique to exploit the fact that real-world environments inherently possess structure. This structure introduces dependencies between points on the map which are not accounted for by many common mapping techniques such as occupancy grids. Our approach is an `anytime' algorithm that is capable of generating accurate representations of large environments at arbitrary resolutions to suit many applications. It also provides inferences with associated variances into occluded regions and between sensor beams, even with relatively few observations. Crucially, the technique can handle noisy data, potentially from multiple sources, and fuse it into a robust common probabilistic representation of the robot's surroundings. We demonstrate the benefits of our approach on simulated datasets with known ground truth and in outdoor urban environments.},
+  url = {http://journals.sagepub.com/doi/10.1177/0278364911421039},
+  urldate = {2022-02-06},
   langid = {english}
 }
 
@@ -98,7 +100,8 @@
   pages = {1717--1730},
   issn = {0278-3649, 1741-3176},
   doi = {10.1177/0278364916684382},
-  abstract = {The vast amount of data robots can capture today motivates the development of fast and scalable statistical tools to model the space the robot operates in. We devise a new technique for environment representation through continuous occupancy mapping that improves on the popular occupancy grip maps in two fundamental aspects: (1) it does not assume an a priori discrimination of the world into grid cells and therefore can provide maps at an arbitrary resolution; (2) it captures spatial relationships between measurements naturally, thus being more robust to outliers and possessing better generalization performance. The technique, named Hilbert maps, is based on the computation of fast kernel approximations that project the data in a Hilbert space where a logistic regression classifier is learnt. We show that this approach allows for efficient stochastic gradient optimization where each measurement is only processed once during learning in an online manner. We present results with three types of approximations: random Fourier; Nystr\"om; and a novel sparse projection. We also extend the approach to accept probability distributions as inputs, for example, due to uncertainty over the position of laser scans due to sensor or localization errors. In this extended version, experiments were conducted in two dimensions and three dimensions, using popular benchmark datasets. Furthermore, an analysis of the adaptive capabilities of the technique to handle large changes in the data, such as trajectory update before and after loop closure during simultaneous localization and mapping, is also included.},
+  url = {http://journals.sagepub.com/doi/10.1177/0278364916684382},
+  urldate = {2022-02-06},
   langid = {english}
 }
 
@@ -112,7 +115,9 @@
   number = {1},
   pages = {248--260},
   issn = {1552-3098, 1941-0468},
-  doi = {10.1109/TRO.2018.2878363}
+  doi = {10.1109/TRO.2018.2878363},
+  url = {https://ieeexplore.ieee.org/document/8534383/},
+  urldate = {2021-09-29}
 }
 
 
