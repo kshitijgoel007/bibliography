@@ -146,6 +146,20 @@
   isbn = {978-1-4673-8851-1}
 }
 
+@inproceedings{einhorn_finding_2011,
+  title = {Finding the Adequate Resolution for Grid Mapping - {{Cell}} Sizes Locally Adapting on-the-Fly},
+  booktitle = {2011 {{IEEE International Conference}} on {{Robotics}} and {{Automation}}},
+  author = {Einhorn, Erik and Schr{\"o}ter, Christof and Gross, Horst-Michael},
+  year = {2011},
+  month = may,
+  pages = {1843--1848},
+  issn = {1050-4729},
+  doi = {10.1109/ICRA.2011.5980084},
+  abstract = {For robot mapping occupancy grid maps are the most common representation of the environment. However, most existing algorithms for creating such maps assume a fixed resolution of the grid cells. In this paper we present a novel mapping technique that chooses the resolution of each cell adaptively by merging and splitting cells depending on the measurements. The splitting of the cells is based on a statistical measure that we derive in this paper. In contrast to other approaches the adaption of the resolution is done online during the mapping process itself. Additionally, we introduce the Nd-Tree, a generalization of quadtrees and octrees that allows to subdivide any d-dimensional volume recursively with Nd children per node. Using this data structure our approach can be implemented in a very generic way and allows the creation of 2D, 3D and even higher dimensional maps using the same algorithm. Finally, we show results of our proposed method for 2D and 3D mapping using different kinds of range sensors.},
+  keywords = {Histograms,Octrees,Robots,Sensors,Three dimensional displays,Volume measurement},
+  file = {/Users/kshitijgoel/Zotero/storage/AJMWWH5X/Einhorn et al. - 2011 - Finding the adequate resolution for grid mapping -.pdf;/Users/kshitijgoel/Zotero/storage/XWCQYV4K/5980084.html}
+}
+
 @article{elfes_using_1989,
   title = {Using Occupancy Grids for Mobile Robot Perception and Navigation},
   author = {Elfes, A.},
@@ -193,6 +207,22 @@
   abstract = {In this letter, we study the effects that perception latency has on the maximum speed a robot can reach to safely navigate through an unknown cluttered environment. We provide a general analysis that can serve as a baseline for future quantitative reasoning for design tradeoffs in autonomous robot navigation. We consider the case where the robot is modeled as a linear secondorder system with bounded input and navigates through static obstacles. Also, we focus on a scenario where the robot wants to reach a target destination in as little time as possible, and therefore cannot change its longitudinal velocity to avoid obstacles. We show how the maximum latency that the robot can tolerate to guarantee safety is related to the desired speed, the range of its sensing pipeline, and the actuation limitations of the platform (i.e., the maximum acceleration it can produce). As a particular case study, we compare monocular and stereo frame-based cameras against novel, low-latency sensors, such as event cameras, in the case of quadrotor flight. To validate our analysis, we conduct experiments on a quadrotor platform equipped with an event camera to detect and avoid obstacles thrown towards the robot. To the best of our knowledge, this is the first theoretical work in which perception and actuation limitations are jointly considered to study the performance of a robotic platform in high-speed navigation.},
   keywords = {aerial systems: perception and autonomy,Cameras,Collision avoidance,Navigation,Robot vision systems,visual-based navigation},
   file = {/Users/kshitijgoel/Zotero/storage/MBXPFPBV/Falanga et al. - 2019 - How Fast Is Too Fast The Role of Perception Laten.pdf;/Users/kshitijgoel/Zotero/storage/T8T9DB6H/8636976.html}
+}
+
+@article{funk_multi-resolution_2021,
+  title = {Multi-{{Resolution 3D Mapping With Explicit Free Space Representation}} for {{Fast}} and {{Accurate Mobile Robot Motion Planning}}},
+  author = {Funk, Nils and Tarrio, Juan and Papatheodorou, Sotiris and Popovi{\'c}, Marija and Alcantarilla, Pablo F. and Leutenegger, Stefan},
+  year = {2021},
+  month = apr,
+  journal = {IEEE Robotics and Automation Letters},
+  volume = {6},
+  number = {2},
+  pages = {3553--3560},
+  issn = {2377-3766},
+  doi = {10.1109/LRA.2021.3061989},
+  abstract = {With the aim of bridging the gap between high quality reconstruction and robot motion planning, we propose an efficient system that leverages the concept of adaptive-resolution volumetric mapping, which naturally integrates with the hierarchical decomposition of space in an octree data structure. Instead of a Truncated Signed Distance Function (TSDF), we adopt mapping of occupancy probabilities in log-odds representation, which allows to represent both surfaces, as well as the entire free, i.e. observed space, as opposed to unobserved space. We introduce a method for choosing resolution -on the fly- in real-time by means of a multi-scale max-min pooling of the input depth image. The notion of explicit free space mapping paired with the spatial hierarchy in the data structure, as well as map resolution, allows for collision queries, as needed for robot motion planning, at unprecedented speed. We quantitatively evaluate mapping accuracy, memory, runtime performance, and planning performance showing improvements over the state of the art, particularly in cases requiring high resolution maps.},
+  keywords = {Cameras,Image reconstruction,Mapping,motion and path planning,Octrees,Planning,Real-time systems,Robot sensing systems,Three-dimensional displays},
+  file = {/Users/kshitijgoel/Zotero/storage/E8K8V9WS/Funk et al. - 2021 - Multi-Resolution 3D Mapping With Explicit Free Spa.pdf;/Users/kshitijgoel/Zotero/storage/KTTAI8V9/9362165.html}
 }
 
 @inproceedings{goel_fast_2021,
@@ -727,6 +757,22 @@
   doi = {10.1109/IROS40897.2019.8968021},
   abstract = {High-speed trajectory planning through unknown environments requires algorithmic techniques that enable fast reaction times while maintaining safety as new information about the operating environment is obtained. The requirement of computational tractability typically leads to optimization problems that do not include the obstacle constraints (collision checks are done on the solutions) or use a convex decomposition of the free space and then impose an ad-hoc time allocation scheme for each interval of the trajectory. Moreover, safety guarantees are usually obtained by having a local planner that plans a trajectory with a final ``stop'' condition in the freeknown space. However, these two decisions typically lead to slow and conservative trajectories. We propose FASTER (Fast and Safe Trajectory Planner) to overcome these issues. FASTER obtains high-speed trajectories by enabling the local planner to optimize in both the free-known and unknown spaces. Safety guarantees are ensured by always having a feasible, safe back-up trajectory in the free-known space at the start of each replanning step. Furthermore, we present a Mixed Integer Quadratic Program formulation in which the solver can choose the trajectory interval allocation, and where a time allocation heuristic is computed efficiently using the result of the previous replanning iteration. This proposed algorithm is tested extensively both in simulation and in real hardware, showing agile flights in unknown cluttered environments with velocities up to 3.6 m/s.},
   file = {/Users/kshitijgoel/Zotero/storage/DRVLJIAU/Tordesillas et al. - 2019 - FASTER Fast and Safe Trajectory Planner for Fligh.pdf;/Users/kshitijgoel/Zotero/storage/TFL4QFJV/8968021.html}
+}
+
+@article{wang_neither_2022,
+  title = {Neither {{Fast Nor Slow}}: {{How}} to {{Fly Through Narrow Tunnels}}},
+  shorttitle = {Neither {{Fast Nor Slow}}},
+  author = {Wang, Luqi and Xu, Hao and Zhang, Yichen and Shen, Shaojie},
+  year = {2022},
+  month = jan,
+  journal = {arXiv:2201.03312 [cs]},
+  eprint = {2201.03312},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  abstract = {Nowadays, multirotors are playing important roles in abundant types of missions. During these missions, entering confined and narrow tunnels that are barely accessible to humans is desirable yet extremely challenging for multirotors. The restricted space and significant ego airflow disturbances induce control issues at both fast and slow flight speeds, meanwhile bringing about problems in state estimation and perception. Thus, a smooth trajectory at a proper speed is necessary for safe tunnel flights. To address these challenges, in this letter, a complete autonomous aerial system that can fly smoothly through tunnels with dimensions narrow to 0.6 m is presented. The system contains a motion planner that generates smooth mini-jerk trajectories along the tunnel center lines, which are extracted according to the map and Euclidean Distance Field (EDF), and its practical speed range is obtained through computational fluid dynamics (CFD) and flight data analyses. Extensive flight experiments on the quadrotor are conducted inside multiple narrow tunnels to validate the planning framework as well as the robustness of the whole system.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Robotics},
+  file = {/Users/kshitijgoel/Zotero/storage/GBEYSPZF/Wang et al. - 2022 - Neither Fast Nor Slow How to Fly Through Narrow T.pdf;/Users/kshitijgoel/Zotero/storage/6IUVI6FZ/2201.html}
 }
 
 @inproceedings{whelan_elasticfusion_2015,
